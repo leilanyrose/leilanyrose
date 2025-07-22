@@ -6,17 +6,17 @@ import Link from "next/link"
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-violet-50 relative">
-      {/* Violet Flame Background */}
+    <div className="min-h-screen relative">
+      {/* Full Violet Flame Background */}
       <div className="fixed inset-0 z-0">
-        <Image src="/images/violet-flame-background.png" alt="" fill className="object-cover opacity-25" priority />
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-50/40 via-purple-50/40 to-violet-50/40"></div>
+        <Image src="/images/violet-flame-full-background.png" alt="" fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-gradient-to-b from-violet-900/70 via-purple-900/60 to-violet-900/70"></div>
       </div>
 
       {/* All content with relative positioning */}
       <div className="relative z-10">
         {/* Navigation */}
-        <nav className="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-purple-100">
+        <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-purple-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <Link href="/" className="flex items-center space-x-2">
@@ -62,8 +62,8 @@ export default function ServicesPage() {
         {/* Hero Section */}
         <section className="py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl lg:text-5xl font-serif text-gray-800 mb-6">Services</h1>
-            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+            <h1 className="text-4xl lg:text-5xl font-serif text-white mb-6 drop-shadow-2xl">Services</h1>
+            <p className="text-xl text-white leading-relaxed max-w-3xl mx-auto drop-shadow-xl">
               My approach integrates intuitive energy practices, spiritual insight, and trauma-informed care to support
               emotional and somatic healing. Rooted in both ancient traditions and emerging research on the mind-body
               connection, each session is designed to increase self-awareness, release internal blocks, and support
@@ -77,7 +77,7 @@ export default function ServicesPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid gap-12">
               {/* Divine Healing */}
-              <Card className="border-purple-100 shadow-lg bg-white/80 backdrop-blur-sm">
+              <Card className="border-white/20 shadow-lg bg-white/90 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <div className="grid lg:grid-cols-2 gap-8 items-start">
                     <div>
@@ -165,7 +165,7 @@ export default function ServicesPage() {
               </Card>
 
               {/* Soul Contract Reading */}
-              <Card className="border-purple-100 shadow-lg bg-white/80 backdrop-blur-sm">
+              <Card className="border-white/20 shadow-lg bg-white/90 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <div className="grid lg:grid-cols-2 gap-8 items-start">
                     <div>
@@ -238,7 +238,7 @@ export default function ServicesPage() {
               </Card>
 
               {/* Holy Fire Reiki */}
-              <Card className="border-purple-100 shadow-lg bg-white/80 backdrop-blur-sm">
+              <Card className="border-white/20 shadow-lg bg-white/90 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <div className="grid lg:grid-cols-2 gap-8 items-start">
                     <div>
@@ -312,25 +312,29 @@ export default function ServicesPage() {
             </div>
 
             {/* Contact CTA */}
-            <div className="text-center mt-16 p-8 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg">
-              <h2 className="text-3xl font-serif text-gray-800 mb-4">Ready to Begin Your Healing Journey?</h2>
-              <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-                Each session is a sacred space for transformation. Contact me to discuss which service feels most
-                aligned for you.
-              </p>
-              <div className="flex justify-center">
-                <Button
-                  size="lg"
-                  className="bg-gradient-to-r from-purple-500 to-violet-500 hover:from-purple-600 hover:to-violet-600 text-white shadow-lg shadow-violet-300/30"
-                >
-                  <a
-                    href="https://calendly.com/leilanyrose99/30min?month=2025-07"
-                    target="_blank"
-                    rel="noopener noreferrer"
+            <div className="text-center mt-16">
+              <div className="bg-black/20 backdrop-blur-md rounded-3xl p-12 border border-white/20">
+                <h2 className="text-3xl font-serif text-white mb-4 drop-shadow-2xl">
+                  Ready to Begin Your Healing Journey?
+                </h2>
+                <p className="text-lg text-white mb-6 max-w-2xl mx-auto drop-shadow-xl">
+                  Each session is a sacred space for transformation. Contact me to discuss which service feels most
+                  aligned for you.
+                </p>
+                <div className="flex justify-center">
+                  <Button
+                    size="lg"
+                    className="bg-white text-purple-800 hover:bg-gray-50 shadow-2xl shadow-black/50 font-semibold"
                   >
-                    Schedule Consultation
-                  </a>
-                </Button>
+                    <a
+                      href="https://calendly.com/leilanyrose99/30min?month=2025-07"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Schedule Consultation
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

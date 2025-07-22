@@ -6,17 +6,17 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-violet-50 relative">
-      {/* Violet Flame Background */}
+    <div className="min-h-screen relative">
+      {/* Full Violet Flame Background */}
       <div className="fixed inset-0 z-0">
-        <Image src="/images/violet-flame-background.png" alt="" fill className="object-cover opacity-25" priority />
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-50/40 via-purple-50/40 to-violet-50/40"></div>
+        <Image src="/images/violet-flame-full-background.png" alt="" fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-gradient-to-b from-violet-900/70 via-purple-900/60 to-violet-900/70"></div>
       </div>
 
       {/* All content with relative positioning */}
       <div className="relative z-10">
         {/* Navigation */}
-        <nav className="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-purple-100">
+        <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-purple-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <div className="flex items-center space-x-2">
@@ -66,10 +66,10 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <div className="space-y-4">
-                  <h1 className="text-4xl lg:text-6xl font-serif leading-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-700">
+                  <h1 className="text-4xl lg:text-6xl font-serif leading-tight text-white drop-shadow-2xl">
                     Guiding women to reclaim Her power and align with Her Highest Self
                   </h1>
-                  <p className="text-lg text-gray-600 leading-relaxed">
+                  <p className="text-lg text-white leading-relaxed drop-shadow-xl">
                     Through spiritual healing, meditation, breathwork, and trauma-informed principles, I support women
                     on their journey to wholeness, empowerment, and authentic self-expression.
                   </p>
@@ -78,7 +78,7 @@ export default function HomePage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-purple-500 to-violet-500 hover:from-purple-600 hover:to-violet-600 text-white px-8 shadow-lg shadow-violet-300/30"
+                    className="bg-white text-purple-800 hover:bg-gray-50 px-8 shadow-2xl shadow-black/50 font-semibold"
                   >
                     <a
                       href="https://calendly.com/leilanyrose99/30min?month=2025-07"
@@ -97,7 +97,7 @@ export default function HomePage() {
                   alt="Leilany Rose - Spiritual Healer and Guide"
                   width={500}
                   height={600}
-                  className="rounded-2xl shadow-2xl shadow-violet-200/30"
+                  className="rounded-2xl shadow-2xl shadow-black/40"
                 />
               </div>
             </div>
@@ -105,17 +105,17 @@ export default function HomePage() {
         </section>
 
         {/* Services Section */}
-        <section id="services" className="py-20 bg-white/70 backdrop-blur-sm">
+        <section id="services" className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-4xl font-serif text-gray-800 mb-4">Holistic Services</h2>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <h2 className="text-3xl lg:text-4xl font-serif text-white mb-4 drop-shadow-2xl">Holistic Services</h2>
+              <p className="text-lg text-white max-w-2xl mx-auto drop-shadow-xl">
                 Holistic healing modalities rooted in ancient wisdom and modern science
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="border-purple-100 hover:shadow-lg transition-shadow bg-white/80 backdrop-blur-sm">
+              <Card className="border-white/20 hover:shadow-lg transition-shadow bg-white/90 backdrop-blur-sm">
                 <CardContent className="p-8 text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-100 to-violet-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Heart className="h-8 w-8 text-purple-500" />
@@ -128,7 +128,7 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="border-purple-100 hover:shadow-lg transition-shadow bg-white/80 backdrop-blur-sm">
+              <Card className="border-white/20 hover:shadow-lg transition-shadow bg-white/90 backdrop-blur-sm">
                 <CardContent className="p-8 text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-100 to-violet-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Lotus className="h-8 w-8 text-purple-500" />
@@ -141,7 +141,7 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="border-purple-100 hover:shadow-lg transition-shadow bg-white/80 backdrop-blur-sm">
+              <Card className="border-white/20 hover:shadow-lg transition-shadow bg-white/90 backdrop-blur-sm">
                 <CardContent className="p-8 text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-100 to-violet-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Moon className="h-8 w-8 text-purple-500" />
@@ -159,7 +159,7 @@ export default function HomePage() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="py-20 bg-gradient-to-r from-purple-50/70 to-violet-50/70 backdrop-blur-sm">
+        <section id="about" className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
@@ -168,20 +168,20 @@ export default function HomePage() {
                   alt="Leilany Rose in heart-centered healing practice"
                   width={400}
                   height={500}
-                  className="rounded-2xl shadow-xl shadow-violet-200/30"
+                  className="rounded-2xl shadow-xl shadow-black/40"
                 />
               </div>
 
               <div className="space-y-6">
-                <h2 className="text-3xl lg:text-4xl font-serif text-gray-800 mb-4">
+                <h2 className="text-3xl lg:text-4xl font-serif text-white mb-4 drop-shadow-2xl">
                   A Bridge Between Science & Spirit
                 </h2>
-                <p className="text-gray-600 leading-relaxed mb-6">
+                <p className="text-white leading-relaxed mb-6 drop-shadow-xl">
                   With a unique background spanning both scientific inquiry and spiritual practice, I bring a grounded,
                   holistic approach to healing that honors both the wisdom of ancient traditions and the insights of
                   modern trauma research.
                 </p>
-                <p className="text-gray-600 leading-relaxed mb-6">
+                <p className="text-white leading-relaxed mb-6 drop-shadow-xl">
                   As a certified meditation and breathwork teacher and counselor-in-training, I'm passionate about
                   creating safe, sacred spaces where women can reconnect with their innate power, wisdom, and authentic
                   self-expression.
@@ -189,20 +189,20 @@ export default function HomePage() {
 
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                    <span className="text-gray-700">Certified Meditation & Breathwork Teacher</span>
+                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                    <span className="text-white drop-shadow-xl">Certified Meditation & Breathwork Teacher</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                    <span className="text-gray-700">Counselor-in-Training</span>
+                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                    <span className="text-white drop-shadow-xl">Counselor-in-Training</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                    <span className="text-gray-700">Background in Science & Trauma-Informed Healing</span>
+                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                    <span className="text-white drop-shadow-xl">Background in Science & Trauma-Informed Healing</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                    <span className="text-gray-700">Spiritual Healer & Guide</span>
+                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                    <span className="text-white drop-shadow-xl">Spiritual Healer & Guide</span>
                   </div>
                 </div>
               </div>
@@ -211,122 +211,134 @@ export default function HomePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-br from-violet-600 via-purple-600 to-violet-700 relative overflow-hidden">
+        <section className="py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl lg:text-4xl font-serif text-white mb-6">Ready to Begin Your Sacred Journey?</h2>
-            <p className="text-xl text-violet-100 mb-8 leading-relaxed">
-              Take the first step toward reclaiming your power and aligning with your highest self
-            </p>
-            <Button
-              size="lg"
-              className="bg-white text-violet-600 hover:bg-violet-50 px-8 py-3 text-lg shadow-lg shadow-violet-300/30"
-            >
-              <a
-                href="https://calendly.com/leilanyrose99/30min?month=2025-07"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Book Your Session Today
-              </a>
-            </Button>
-          </div>
-        </section>
-
-        {/* Contact Section */}
-        <section id="contact" className="py-20 bg-white/70 backdrop-blur-sm">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl lg:text-4xl font-serif text-gray-800 mb-6">Let's Connect</h2>
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              I'd love to hear from you and support you on your healing journey. Reach out to schedule a consultation or
-              ask any questions.
-            </p>
-
-            <div className="grid md:grid-cols-4 gap-8 mb-8">
-              <div className="text-center">
-                <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
-                <a href="mailto:leilanyrose99@gmail.com" className="text-purple-600 hover:text-purple-700">
-                  leilanyrose99@gmail.com
-                </a>
-              </div>
-              <div className="text-center">
-                <h3 className="font-semibold text-gray-800 mb-2">Phone</h3>
-                <a href="tel:832-543-3985" className="text-purple-600 hover:text-purple-700">
-                  (832) 543-3985
-                </a>
-              </div>
-              <div className="text-center">
-                <h3 className="font-semibold text-gray-800 mb-2">Instagram</h3>
-                <a
-                  href="https://www.instagram.com/leilany.rose/?hl=en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  @leilany.rose
-                </a>
-              </div>
-              <div className="text-center">
-                <h3 className="font-semibold text-gray-800 mb-2">TikTok</h3>
-                <a
-                  href="https://www.tiktok.com/@leilanyrose22"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  @leilanyrose22
-                </a>
-              </div>
-            </div>
-
-            <div className="flex justify-center">
+            <div className="bg-black/20 backdrop-blur-md rounded-3xl p-12 border border-white/20">
+              <h2 className="text-3xl lg:text-4xl font-serif text-white mb-6 drop-shadow-2xl">
+                Ready to Begin Your Sacred Journey?
+              </h2>
+              <p className="text-xl text-white mb-8 leading-relaxed drop-shadow-xl">
+                Take the first step toward reclaiming your power and aligning with your highest self
+              </p>
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-purple-500 to-violet-500 hover:from-purple-600 hover:to-violet-600 text-white shadow-lg shadow-violet-300/30"
+                className="bg-white text-purple-800 hover:bg-gray-50 px-8 py-3 text-lg shadow-2xl shadow-black/30 font-semibold"
               >
                 <a
                   href="https://calendly.com/leilanyrose99/30min?month=2025-07"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Schedule Consultation
+                  Book Your Session Today
                 </a>
               </Button>
             </div>
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="bg-gray-50/80 backdrop-blur-sm py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="flex items-center space-x-2 mb-4 md:mb-0">
-                <Image
-                  src="/images/lrc-logo.png"
-                  alt="Leilany Rose Healing"
-                  width={24}
-                  height={24}
-                  className="h-6 w-auto"
-                />
-                <span className="text-lg font-serif text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-700">
-                  Leilany Rose Healing
-                </span>
+        {/* Contact Section */}
+        <section id="contact" className="py-20">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="bg-black/20 backdrop-blur-md rounded-3xl p-12 border border-white/20">
+              <h2 className="text-3xl lg:text-4xl font-serif text-white mb-6 drop-shadow-2xl">Let's Connect</h2>
+              <p className="text-lg text-white mb-8 max-w-2xl mx-auto drop-shadow-xl">
+                I'd love to hear from you and support you on your healing journey. Reach out to schedule a consultation
+                or ask any questions.
+              </p>
+
+              <div className="grid md:grid-cols-4 gap-8 mb-8">
+                <div className="text-center">
+                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">Email</h3>
+                  <a
+                    href="mailto:leilanyrose99@gmail.com"
+                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                  >
+                    leilanyrose99@gmail.com
+                  </a>
+                </div>
+                <div className="text-center">
+                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">Phone</h3>
+                  <a
+                    href="tel:832-543-3985"
+                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                  >
+                    (832) 543-3985
+                  </a>
+                </div>
+                <div className="text-center">
+                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">Instagram</h3>
+                  <a
+                    href="https://www.instagram.com/leilany.rose/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                  >
+                    @leilany.rose
+                  </a>
+                </div>
+                <div className="text-center">
+                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">TikTok</h3>
+                  <a
+                    href="https://www.tiktok.com/@leilanyrose22"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                  >
+                    @leilanyrose22
+                  </a>
+                </div>
               </div>
 
-              <div className="flex space-x-6 text-sm text-gray-600">
-                <Link href="/privacy" className="hover:text-purple-600 transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/terms" className="hover:text-purple-600 transition-colors">
-                  Terms of Service
-                </Link>
-                <Link href="/contact" className="hover:text-purple-600 transition-colors">
-                  Contact
-                </Link>
+              <div className="flex justify-center">
+                <Button
+                  size="lg"
+                  className="bg-white text-purple-800 hover:bg-gray-50 shadow-2xl shadow-black/30 font-semibold"
+                >
+                  <a
+                    href="https://calendly.com/leilanyrose99/30min?month=2025-07"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Schedule Consultation
+                  </a>
+                </Button>
               </div>
             </div>
+          </div>
+        </section>
 
-            <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
-              <p>&copy; {new Date().getFullYear()} Leilany Rose Healing. All rights reserved.</p>
+        {/* Footer */}
+        <footer className="py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-black/20 backdrop-blur-md rounded-2xl p-8 border border-white/20">
+              <div className="flex flex-col md:flex-row justify-between items-center">
+                <div className="flex items-center space-x-2 mb-4 md:mb-0">
+                  <Image
+                    src="/images/lrc-logo.png"
+                    alt="Leilany Rose Healing"
+                    width={24}
+                    height={24}
+                    className="h-6 w-auto"
+                  />
+                  <span className="text-lg font-serif text-white drop-shadow-xl">Leilany Rose Healing</span>
+                </div>
+
+                <div className="flex space-x-6 text-sm text-white">
+                  <Link href="/privacy" className="hover:text-gray-200 transition-colors drop-shadow-lg">
+                    Privacy Policy
+                  </Link>
+                  <Link href="/terms" className="hover:text-gray-200 transition-colors drop-shadow-lg">
+                    Terms of Service
+                  </Link>
+                  <Link href="/contact" className="hover:text-gray-200 transition-colors drop-shadow-lg">
+                    Contact
+                  </Link>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-8 border-t border-white/20 text-center text-sm text-white/90">
+                <p>&copy; {new Date().getFullYear()} Leilany Rose Healing. All rights reserved.</p>
+              </div>
             </div>
           </div>
         </footer>
