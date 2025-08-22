@@ -10,8 +10,9 @@ export default function ServicesPage() {
     <div className="min-h-screen relative">
       {/* Full Violet Flame Background */}
       <div className="fixed inset-0 z-0">
-        <Image src="/images/violet-flame-full-background.png" alt="" fill className="object-cover" priority />
-        <div className="absolute inset-0 bg-gradient-to-b from-violet-900/70 via-purple-900/60 to-violet-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-violet-800 via-purple-900 to-violet-900"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-violet-800/60 to-purple-900/80"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-violet-600/30 via-purple-800/20 to-violet-900/40"></div>
       </div>
 
       {/* All content with relative positioning */}
