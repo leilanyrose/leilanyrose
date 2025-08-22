@@ -21,9 +21,15 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
       <div className="md:hidden">
         <button
           onClick={toggleMenu}
-          className="p-3 bg-white/90 backdrop-blur-sm rounded-lg shadow-lg border border-purple-200 text-purple-700 hover:text-purple-800 hover:bg-white transition-all duration-200"
+          className="relative p-2 bg-purple-600 text-white rounded-lg shadow-lg hover:bg-purple-700 transition-colors border-2 border-purple-700"
           aria-label="Toggle menu"
           type="button"
+          style={{
+            minWidth: "44px",
+            minHeight: "44px",
+            WebkitAppearance: "none",
+            WebkitTapHighlightColor: "transparent",
+          }}
         >
           {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>

@@ -119,3 +119,107 @@ abbr[title]::after,
 acronym[title]::after {
   content: "" !important;
 }
+
+/* Completely disable any browser help features */
+* {
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+/* Allow text selection only where needed */
+p,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+/* Remove any iOS/Safari specific help elements */
+input,
+textarea,
+select,
+button {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+/* Hide any potential help bubbles or tooltips */
+[title]:hover::after,
+[title]:focus::after,
+[data-title]:hover::after,
+[data-title]:focus::after {
+  display: none !important;
+  content: "" !important;
+}
+
+/* Remove title attributes that might trigger help */
+[title] {
+  position: relative;
+}
+
+/* Disable any browser-generated help content */
+::selection {
+  background: rgba(147, 51, 234, 0.2);
+}
+
+::-moz-selection {
+  background: rgba(147, 51, 234, 0.2);
+}
+
+/* Force hide any accessibility help elements */
+[role="tooltip"],
+[aria-describedby],
+.sr-only:not(.sr-only-focusable):not(:focus) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Remove any question mark or help icons from form elements */
+input[type="text"]::-ms-clear,
+input[type="text"]::-ms-reveal {
+  display: none !important;
+}
+
+/* Disable any browser validation bubbles */
+input:invalid,
+textarea:invalid,
+select:invalid {
+  box-shadow: none !important;
+}
+
+/* Remove any browser-generated help cursors */
+[title] {
+  cursor: default !important;
+}
+
+/* Ensure buttons and links have proper cursors */
+button,
+[role="button"],
+a,
+input[type="submit"],
+input[type="button"] {
+  cursor: pointer !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  user-select: none !important;
+}
