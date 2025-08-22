@@ -8,11 +8,11 @@ import { MobileMenu } from "@/components/mobile-menu"
 export default function HomePage() {
   return (
     <div className="min-h-screen relative">
-      {/* Full Violet Flame Background */}
+      {/* Full Violet Flame Background - Dark Lavender */}
       <div className="fixed inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-violet-800 via-purple-900 to-violet-900"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-violet-800/60 to-purple-900/80"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-violet-600/30 via-purple-800/20 to-violet-900/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-500 via-violet-600 to-purple-600"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-violet-700/70 via-purple-600/50 to-violet-700/70"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-400/40 via-violet-500/30 to-purple-600/50"></div>
       </div>
 
       {/* All content with relative positioning */}
@@ -310,17 +310,19 @@ export default function HomePage() {
         {/* Footer */}
         <footer className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-black/20 backdrop-blur-md rounded-2xl p-8 border border-white/20">
+            <div className="bg-white/25 backdrop-blur-md rounded-2xl p-8 border border-white/40 shadow-lg">
               <div className="flex flex-col md:flex-row justify-between items-center">
-                <div className="flex items-center space-x-2 mb-4 md:mb-0">
+                <div className="flex items-center space-x-3 mb-4 md:mb-0">
                   <Image
                     src="/images/lrc-logo.png"
                     alt="Leilany Rose Healing"
-                    width={24}
-                    height={24}
-                    className="h-6 w-auto"
+                    width={36}
+                    height={36}
+                    className="h-9 w-auto brightness-125 contrast-125 drop-shadow-lg"
                   />
-                  <span className="text-lg font-serif text-white drop-shadow-xl">Leilany Rose Healing</span>
+                  <span className="text-xl font-serif text-white drop-shadow-xl font-semibold">
+                    Leilany Rose Healing
+                  </span>
                 </div>
 
                 <div className="flex space-x-6 text-sm text-white">
@@ -336,7 +338,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="mt-8 pt-8 border-t border-white/20 text-center text-sm text-white/90">
+              <div className="mt-8 pt-8 border-t border-white/40 text-center text-sm text-white/95">
                 <p>&copy; {new Date().getFullYear()} Leilany Rose Healing. All rights reserved.</p>
               </div>
             </div>

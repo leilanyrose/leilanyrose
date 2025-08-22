@@ -66,10 +66,8 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
             <nav className="p-6 space-y-2">
               <Link
                 href="/"
-                className={`block py-3 px-4 rounded-xl transition-all duration-200 ${
-                  currentPage === "home"
-                    ? "bg-gradient-to-r from-purple-100 to-violet-100 text-purple-700 font-semibold shadow-sm"
-                    : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
+                className={`block py-3 px-4 rounded-xl transition-all duration-200 bg-white text-purple-700 hover:bg-purple-50 ${
+                  currentPage === "home" ? "font-semibold shadow-sm border border-purple-200" : ""
                 }`}
                 onClick={closeMenu}
               >
@@ -77,10 +75,8 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
               </Link>
               <Link
                 href="/about"
-                className={`block py-3 px-4 rounded-xl transition-all duration-200 ${
-                  currentPage === "about"
-                    ? "bg-gradient-to-r from-purple-100 to-violet-100 text-purple-700 font-semibold shadow-sm"
-                    : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
+                className={`block py-3 px-4 rounded-xl transition-all duration-200 bg-white text-purple-700 hover:bg-purple-50 ${
+                  currentPage === "about" ? "font-semibold shadow-sm border border-purple-200" : ""
                 }`}
                 onClick={closeMenu}
               >
@@ -88,10 +84,8 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
               </Link>
               <Link
                 href="/services"
-                className={`block py-3 px-4 rounded-xl transition-all duration-200 ${
-                  currentPage === "services"
-                    ? "bg-gradient-to-r from-purple-100 to-violet-100 text-purple-700 font-semibold shadow-sm"
-                    : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
+                className={`block py-3 px-4 rounded-xl transition-all duration-200 bg-white text-purple-700 hover:bg-purple-50 ${
+                  currentPage === "services" ? "font-semibold shadow-sm border border-purple-200" : ""
                 }`}
                 onClick={closeMenu}
               >
@@ -99,7 +93,7 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
               </Link>
               <Link
                 href="/#contact"
-                className="block py-3 px-4 rounded-xl text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-all duration-200"
+                className="block py-3 px-4 rounded-xl bg-white text-purple-700 hover:bg-purple-50 transition-all duration-200"
                 onClick={closeMenu}
               >
                 Connect

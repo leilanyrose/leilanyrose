@@ -6,11 +6,11 @@ import { MobileMenu } from "@/components/mobile-menu"
 export default function AboutPage() {
   return (
     <div className="min-h-screen relative">
-      {/* Full Violet Flame Background */}
+      {/* Full Violet Flame Background - Dark Lavender */}
       <div className="fixed inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-violet-800 via-purple-900 to-violet-900"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-violet-800/60 to-purple-900/80"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-violet-600/30 via-purple-800/20 to-violet-900/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-500 via-violet-600 to-purple-600"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-violet-700/70 via-purple-600/50 to-violet-700/70"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-400/40 via-violet-500/30 to-purple-600/50"></div>
       </div>
 
       {/* All content with relative positioning */}
@@ -148,7 +148,7 @@ export default function AboutPage() {
                     alt="Leilany Rose Healing Logo"
                     width={32}
                     height={32}
-                    className="h-8 w-auto brightness-75 contrast-125"
+                    className="h-8 w-auto brightness-125 contrast-125 drop-shadow-lg"
                   />
                 </div>
               </div>
