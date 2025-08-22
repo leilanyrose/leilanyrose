@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Heart, Star, Sparkles } from "lucide-react"
+import { Heart, Star, Sparkles, Users } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import { MobileMenu } from "@/components/mobile-menu"
 
 export default function ServicesPage() {
   return (
@@ -55,6 +56,8 @@ export default function ServicesPage() {
                   </a>
                 </Button>
               </div>
+
+              <MobileMenu currentPage="services" />
             </div>
           </div>
         </nav>
@@ -206,10 +209,6 @@ export default function ServicesPage() {
                         <li>• Learn how to align your energy to manifest your dreams</li>
                         <li>• Improve your relationships through deeper understanding</li>
                       </ul>
-
-                      <div className="mt-6 p-3 bg-violet-50 rounded-lg">
-                        <p className="text-purple-700 font-medium">Relationship Readings Coming Soon...</p>
-                      </div>
                     </div>
                   </div>
 
@@ -231,6 +230,71 @@ export default function ServicesPage() {
                         rel="noopener noreferrer"
                       >
                         Book Soul Contract Reading
+                      </a>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Soul Contract Relationship Reading */}
+              <Card className="border-white/20 shadow-lg bg-white/90 backdrop-blur-sm">
+                <CardContent className="p-8">
+                  <div className="grid lg:grid-cols-2 gap-8 items-start">
+                    <div>
+                      <div className="flex items-center space-x-3 mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-purple-100 to-violet-100 rounded-full flex items-center justify-center">
+                          <Users className="h-6 w-6 text-purple-500" />
+                        </div>
+                        <div>
+                          <h3 className="text-2xl font-serif text-gray-800">Soul Contract Relationship Reading</h3>
+                          <div className="flex items-center space-x-2">
+                            <span className="text-lg text-gray-600">Add-on session – 30 minutes</span>
+                            <span className="text-2xl font-bold text-purple-600">+$50</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <p className="text-gray-600 mb-6 leading-relaxed">
+                        This is a follow-up to the foundational Soul Contract Reading, offering a deeper look at how
+                        your relationships have shaped your life path.
+                      </p>
+
+                      <p className="text-gray-600 mb-6 leading-relaxed">
+                        We'll explore how the different names you've used throughout your life —names of significant
+                        people (like partners, family members, or mentors) — have influenced your life. This helps
+                        reveal patterns and repeating themes in your relationships and how they've influenced your
+                        personal growth and soul's direction.
+                      </p>
+                    </div>
+
+                    <div className="space-y-6">
+                      <div>
+                        <h4 className="font-semibold text-gray-800 mb-3">Together, we'll look at:</h4>
+                        <ul className="space-y-2 text-gray-600">
+                          <li>• The energetic influence of past and current relationships</li>
+                          <li>• How name changes may have shifted or activated different parts of your life path</li>
+                          <li>• Key lessons your soul has been working through in connection with others</li>
+                          <li>• The deeper meaning behind relationship patterns or dynamics that keep repeating</li>
+                        </ul>
+                      </div>
+
+                      <div className="p-4 bg-violet-50 rounded-lg">
+                        <p className="text-gray-700 leading-relaxed">
+                          This session can help bring clarity, closure, or new understanding to the relationships that
+                          have impacted you most — and how they've played a role in your soul's unfolding.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-6">
+                    <Button className="bg-gradient-to-r from-purple-500 to-violet-500 hover:from-purple-600 hover:to-violet-600 text-white shadow-lg shadow-violet-300/30">
+                      <a
+                        href="https://calendly.com/leilanyrose99/soul-contract-relationship-session?month=2025-08"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Book Relationship Reading
                       </a>
                     </Button>
                   </div>

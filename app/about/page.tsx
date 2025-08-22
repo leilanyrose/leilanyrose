@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
+import { MobileMenu } from "@/components/mobile-menu"
 
 export default function AboutPage() {
   return (
@@ -53,6 +54,8 @@ export default function AboutPage() {
                   </a>
                 </Button>
               </div>
+
+              <MobileMenu currentPage="about" />
             </div>
           </div>
         </nav>
@@ -80,20 +83,20 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-white leading-relaxed">
                 <p className="drop-shadow-xl">
-                  <strong className="text-white">I am Leilany Rose Calataya</strong>—a certified healer, meditation and
-                  breathwork instructor, and counselor-in-training with a background in Molecular Biology and Clinical
-                  Psychology. I am currently earning my master's degree in counseling at Northwestern University.
+                  I am a certified healer, meditation and breathwork instructor, and counselor-in-training with a
+                  background in Molecular Biology and Clinical Psychology. I am currently earning my Master of Arts in
+                  Counseling at Northwestern University.
                 </p>
 
                 <p className="drop-shadow-xl">
                   But more than that, I am someone who has lived through suppression and trauma—shaped by patriarchy,
-                  silenced by culture—and done the hard work of healing.
+                  silenced by culture—and done the hard, messy work of healing.
                 </p>
 
                 <p className="drop-shadow-xl">
-                  I grew up in a traditional Korean household, where being a girl came with unspoken rules: stay quiet,
-                  stay small, do not take up too much space. Beneath that, I carried the hidden weight of childhood
-                  sexual abuse—wounds I would not fully understand until much later.
+                  I grew up in a traditional Korean household, where being a girl meant following unspoken rules: stay
+                  quiet, stay small, do not take up space. Beneath that silence, I carried the hidden weight of
+                  childhood sexual abuse—wounds I would not fully understand until many years later.
                 </p>
 
                 <p className="drop-shadow-xl">
@@ -106,29 +109,27 @@ export default function AboutPage() {
 
             <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6">
               <p className="drop-shadow-xl">
-                In 2020, I found stillness through meditation—and that stillness became a turning point. I immersed
-                myself in practices like Sudarshan Kriya and Shambhavi Mahamudra, eventually completing a 1500-hour yoga
-                teacher training in the Blue Ridge Mountains. From that foundation, I began guiding others—offering
-                breathwork and meditation not just for stress relief, but as gateways to resilience, reconnection, and
-                inner awakening. And the more I taught, the deeper I journeyed into my own spiritual transformation.
+                In 2020, I found stillness through meditation, and that stillness changed everything. I immersed myself
+                in practices like Shambhavi Mahamudra Kriya and Sudarshan Kriya, completing a 1,500-hour yoga teacher
+                training in the Blue Ridge Mountains. From that foundation, I began guiding others—offering breathwork
+                and meditation not only as stress relief, but as pathways to resilience, reconnection, and awakening.
               </p>
 
               <p className="drop-shadow-xl">
-                I felt called to integrate energy work, trauma-informed spirituality, and intuitive practices. I trained
-                in a range of modalities—including Holy Fire® Reiki, Divine Healing, Soul Contracts, and other
-                mind-body-spirit approaches—that helped me reclaim the parts of myself I had once exiled: my rage,
-                softness, my voice, my truth.
+                My calling deepened into integrating energy work, trauma-informed spirituality, and intuitive healing. I
+                trained in Holy Fire® Reiki, Divine Healing, Soul Contract Readings, and other mind-body-spirit
+                modalities—each helping me reclaim the parts of myself I had once exiled: my power, my voice, my truth.
               </p>
 
               <p className="drop-shadow-xl">
-                Now, I support women who have learned to survive by abandoning themselves—those who have dimmed their
-                light, masked their pain, or forgotten how to trust their inner voice. Through a blend of science-backed
-                insight and soul-aligned healing, I help them come home to themselves.
+                Now, I walk alongside women who have survived by abandoning themselves—those who have dimmed their
+                light, masked their pain, or forgotten how to trust their inner voice. Through a blend of evidence-based
+                insight and soul-aligned healing, I help them return home to themselves.
               </p>
 
               <p className="drop-shadow-xl">
-                This work is sacred to me. Because I know what it is like to feel broken—and I also know that you are
-                not.
+                This work is my life's purpose. Because I know what it is like to feel broken—and I also know that you
+                are not.
               </p>
 
               <div className="text-center py-8">
@@ -146,7 +147,7 @@ export default function AboutPage() {
                     alt="Leilany Rose Healing Logo"
                     width={32}
                     height={32}
-                    className="h-8 w-auto"
+                    className="h-8 w-auto brightness-75 contrast-125"
                   />
                 </div>
               </div>

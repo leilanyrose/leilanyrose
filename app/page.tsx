@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Heart, NotebookIcon as Lotus, Moon, Menu } from "lucide-react"
+import { Heart, Focus as Lotus, Moon } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import { MobileMenu } from "@/components/mobile-menu"
 
 export default function HomePage() {
   return (
@@ -53,9 +54,7 @@ export default function HomePage() {
                 </Button>
               </div>
 
-              <div className="md:hidden">
-                <Menu className="h-6 w-6 text-gray-700" />
-              </div>
+              <MobileMenu currentPage="home" />
             </div>
           </div>
         </nav>
