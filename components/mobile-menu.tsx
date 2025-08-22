@@ -21,8 +21,9 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
       <div className="md:hidden">
         <button
           onClick={toggleMenu}
-          className="p-2 text-gray-700 hover:text-purple-600 transition-colors"
+          className="p-3 bg-white/90 backdrop-blur-sm rounded-lg shadow-lg border border-purple-200 text-purple-700 hover:text-purple-800 hover:bg-white transition-all duration-200"
           aria-label="Toggle menu"
+          type="button"
         >
           {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
@@ -31,32 +32,37 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
       {/* Mobile Menu Overlay */}
       {isOpen && (
         <div className="fixed inset-0 z-50 md:hidden">
-          <div className="fixed inset-0 bg-black/50" onClick={closeMenu} />
-          <div className="fixed top-0 right-0 h-full w-64 bg-white shadow-xl">
-            <div className="flex items-center justify-between p-4 border-b">
-              <div className="flex items-center space-x-2">
+          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm" onClick={closeMenu} />
+          <div className="fixed top-0 right-0 h-full w-80 bg-white shadow-2xl">
+            <div className="flex items-center justify-between p-6 border-b border-purple-100">
+              <div className="flex items-center space-x-3">
                 <Image
                   src="/images/lrc-logo.png"
                   alt="Leilany Rose Healing"
-                  width={24}
-                  height={24}
-                  className="h-6 w-auto"
+                  width={32}
+                  height={32}
+                  className="h-8 w-auto"
                 />
-                <span className="text-sm font-serif text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-700">
+                <span className="text-lg font-serif text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-700">
                   Leilany Rose Healing
                 </span>
               </div>
-              <button onClick={closeMenu} className="p-2 text-gray-700 hover:text-purple-600" aria-label="Close menu">
-                <X className="h-5 w-5" />
+              <button
+                onClick={closeMenu}
+                className="p-2 text-gray-600 hover:text-purple-600 rounded-lg hover:bg-purple-50 transition-colors"
+                aria-label="Close menu"
+                type="button"
+              >
+                <X className="h-6 w-6" />
               </button>
             </div>
 
-            <nav className="p-4 space-y-4">
+            <nav className="p-6 space-y-2">
               <Link
                 href="/"
-                className={`block py-2 px-3 rounded-lg transition-colors ${
+                className={`block py-3 px-4 rounded-xl transition-all duration-200 ${
                   currentPage === "home"
-                    ? "bg-purple-50 text-purple-600 font-medium"
+                    ? "bg-gradient-to-r from-purple-100 to-violet-100 text-purple-700 font-semibold shadow-sm"
                     : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
                 }`}
                 onClick={closeMenu}
@@ -65,9 +71,9 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
               </Link>
               <Link
                 href="/about"
-                className={`block py-2 px-3 rounded-lg transition-colors ${
+                className={`block py-3 px-4 rounded-xl transition-all duration-200 ${
                   currentPage === "about"
-                    ? "bg-purple-50 text-purple-600 font-medium"
+                    ? "bg-gradient-to-r from-purple-100 to-violet-100 text-purple-700 font-semibold shadow-sm"
                     : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
                 }`}
                 onClick={closeMenu}
@@ -76,9 +82,9 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
               </Link>
               <Link
                 href="/services"
-                className={`block py-2 px-3 rounded-lg transition-colors ${
+                className={`block py-3 px-4 rounded-xl transition-all duration-200 ${
                   currentPage === "services"
-                    ? "bg-purple-50 text-purple-600 font-medium"
+                    ? "bg-gradient-to-r from-purple-100 to-violet-100 text-purple-700 font-semibold shadow-sm"
                     : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
                 }`}
                 onClick={closeMenu}
@@ -87,19 +93,20 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
               </Link>
               <Link
                 href="/#contact"
-                className="block py-2 px-3 rounded-lg text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-colors"
+                className="block py-3 px-4 rounded-xl text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-all duration-200"
                 onClick={closeMenu}
               >
                 Connect
               </Link>
 
-              <div className="pt-4 border-t">
-                <Button className="w-full bg-gradient-to-r from-purple-500 to-violet-500 hover:from-purple-600 hover:to-violet-600 text-white shadow-lg">
+              <div className="pt-6 border-t border-purple-100">
+                <Button className="w-full bg-gradient-to-r from-purple-500 to-violet-500 hover:from-purple-600 hover:to-violet-600 text-white shadow-lg rounded-xl py-3">
                   <a
                     href="https://calendly.com/leilanyrose99/30min?month=2025-07"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={closeMenu}
+                    className="block w-full"
                   >
                     Free Connection Call
                   </a>
