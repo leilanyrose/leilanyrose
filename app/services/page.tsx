@@ -102,9 +102,10 @@ export default function ServicesPage() {
                       </div>
 
                       <p className="text-gray-600 mb-6 leading-relaxed">
-                        Divine Healing works with the subconscious mind and Higher Self to clear the root causes of
-                        imbalance—emotional, physical, energetic, or ancestral. By releasing blocks held in the body and
-                        energy field, it creates space for clarity, wholeness, and deep inner alignment.
+                        <strong>Available both online and in-person.</strong> Divine Healing works with the subconscious
+                        mind and Higher Self to clear the root causes of imbalance—emotional, physical, energetic, or
+                        ancestral. By releasing blocks held in the body and energy field, it creates space for clarity,
+                        wholeness, and deep inner alignment.
                       </p>
 
                       <p className="text-gray-600 mb-6 leading-relaxed">
@@ -142,16 +143,6 @@ export default function ServicesPage() {
                       in the first place—so your truest self can emerge. If you're ready to shift from survival to soul
                       alignment, Divine Healing is a key that opens the door.
                     </p>
-                  </div>
-
-                  <div className="mt-6">
-                    <Image
-                      src="/images/leilany-healing-session.jpeg"
-                      alt="Leilany Rose performing energy healing"
-                      width={400}
-                      height={300}
-                      className="rounded-lg shadow-md mx-auto"
-                    />
                   </div>
 
                   <div className="mt-6">
@@ -194,10 +185,10 @@ export default function ServicesPage() {
                       </p>
 
                       <p className="text-gray-600 mb-6 leading-relaxed">
-                        Soul Contract Readings decode the sound vibrations of your birth name using the 22-letter Hebrew
-                        alphabet—each with its own energetic frequency. It reveals the deeper life patterns behind your
-                        challenges, gifts, and purpose—bringing clarity if you feel blocked or know you're meant for
-                        something more.
+                        <strong>Available both online and in-person.</strong> Soul Contract Readings decode the sound
+                        vibrations of your birth name using the 22-letter Hebrew alphabet—each with its own energetic
+                        frequency. It reveals the deeper life patterns behind your challenges, gifts, and
+                        purpose—bringing clarity if you feel blocked or know you're meant for something more.
                       </p>
                     </div>
 
@@ -359,6 +350,16 @@ export default function ServicesPage() {
                       This energy is felt as both powerful and gentle, often bringing a profound sense of peace,
                       lightness, and connection to the divine.
                     </p>
+                  </div>
+
+                  <div className="mt-6">
+                    <Image
+                      src="/images/leilany-healing-session.jpeg"
+                      alt="Leilany Rose performing energy healing"
+                      width={400}
+                      height={300}
+                      className="rounded-lg shadow-md mx-auto"
+                    />
                   </div>
 
                   <div className="mt-6">

@@ -90,47 +90,49 @@ export default function AboutPage() {
                 </p>
 
                 <p className="drop-shadow-xl">
-                  But more than that, I am someone who has lived through suppression and trauma—shaped by patriarchy,
-                  silenced by culture—and done the hard, messy work of healing.
+                  But beyond credentials, I am someone who has lived through suppression and trauma—shaped by
+                  patriarchy, silenced by culture—and who has done the hard, messy work of healing.
                 </p>
 
                 <p className="drop-shadow-xl">
-                  I grew up in a traditional Korean household, where being a girl meant following unspoken rules: stay
+                  I grew up in a traditional Korean household where being a girl meant following unspoken rules: stay
                   quiet, stay small, do not take up space. Beneath that silence, I carried the hidden weight of
                   childhood sexual abuse—wounds I would not fully understand until many years later.
                 </p>
 
                 <p className="drop-shadow-xl">
-                  For years, I searched for confidence, love, and self-worth in self-help books, podcasts, and personal
-                  transformation courses. But healing did not come from pages or programs. It came from within—when I
-                  finally stopped running from myself and began facing what I had buried for years.
+                  For a long time, I searched for confidence, love, and self-worth in self-help books, podcasts, and
+                  personal growth programs. But true healing didn't come from pages or courses. It began when I stopped
+                  running from myself and finally faced what I had buried for years.
                 </p>
               </div>
             </div>
 
             <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6">
               <p className="drop-shadow-xl">
-                In 2020, I found stillness through meditation, and that stillness changed everything. I immersed myself
-                in practices like Shambhavi Mahamudra Kriya and Sudarshan Kriya, completing a 1,500-hour yoga teacher
-                training in the Blue Ridge Mountains. From that foundation, I began guiding others—offering breathwork
-                and meditation not only as stress relief, but as pathways to resilience, reconnection, and awakening.
+                In 2020, I discovered stillness through meditation, and that stillness changed everything. I immersed
+                myself in practices like Shambhavi Mahamudra Kriya and Sudarshan Kriya, and later completed a 1,500-hour
+                yoga teacher training in the Blue Ridge Mountains. From that foundation, I began guiding others,
+                offering breathwork and meditation not only as stress relief but as pathways to resilience,
+                reconnection, and awakening.
               </p>
 
               <p className="drop-shadow-xl">
-                My calling deepened into integrating energy work, trauma-informed spirituality, and intuitive healing. I
-                trained in Holy Fire® Reiki, Divine Healing, Soul Contract Readings, and other mind-body-spirit
-                modalities—each helping me reclaim the parts of myself I had once exiled: my power, my voice, my truth.
+                Over time, my calling deepened into integrating energy work, trauma-informed spirituality, and intuitive
+                healing. I trained in Holy Fire® Reiki, Divine Healing, Soul Contract Readings, and other
+                mind-body-spirit practices. Each one helped me reclaim the parts of myself I had once abandoned—my
+                power, my voice, my truth.
               </p>
 
               <p className="drop-shadow-xl">
-                Now, I walk alongside women who have survived by abandoning themselves—those who have dimmed their
-                light, masked their pain, or forgotten how to trust their inner voice. Through a blend of evidence-based
-                insight and soul-aligned healing, I help them return home to themselves.
+                Today, I walk alongside women who have survived by disconnecting from themselves, women who have dimmed
+                their light, masked their pain, or forgotten how to trust their inner voice. Through a blend of
+                evidence-based insight and soul-centered healing, I help them come back home to themselves.
               </p>
 
               <p className="drop-shadow-xl">
-                This work is my life's purpose. Because I know what it is like to feel broken—and I also know that you
-                are not.
+                This work is my life's purpose. Because I know what it feels like to believe you are broken—and I also
+                know the deeper truth: you are not.
               </p>
 
               <div className="text-center py-8">
