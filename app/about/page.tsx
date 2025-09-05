@@ -71,7 +71,15 @@ export default function AboutPage() {
         {/* Main Content */}
         <section className="pb-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
+            {/* Welcome Message */}
+            <div className="text-center mb-12">
+              <p className="text-xl font-serif text-white drop-shadow-2xl italic">
+                hello beautiful soul! If you are reading this, know you are exactly where you are meant to be
+              </p>
+            </div>
+
+            {/* Content with Image and Text Side by Side */}
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
               <div className="relative">
                 <Image
                   src="/images/leilany-nature.png"
@@ -83,33 +91,34 @@ export default function AboutPage() {
               </div>
 
               <div className="space-y-6 text-white leading-relaxed">
-                <p className="drop-shadow-xl">
+                <p className="text-lg drop-shadow-xl">
                   I am a certified healer, meditation and breathwork instructor, and counselor-in-training with a
                   background in Molecular Biology and Clinical Psychology. I am currently earning my Master of Arts in
                   Counseling at Northwestern University.
                 </p>
 
-                <p className="drop-shadow-xl">
+                <p className="text-lg drop-shadow-xl">
                   But beyond credentials, I am someone who has lived through suppression and trauma—shaped by
                   patriarchy, silenced by culture—and who has done the hard, messy work of healing.
                 </p>
 
-                <p className="drop-shadow-xl">
+                <p className="text-lg drop-shadow-xl">
                   I grew up in a traditional Korean household where being a girl meant following unspoken rules: stay
                   quiet, stay small, do not take up space. Beneath that silence, I carried the hidden weight of
                   childhood sexual abuse—wounds I would not fully understand until many years later.
                 </p>
-
-                <p className="drop-shadow-xl">
-                  For a long time, I searched for confidence, love, and self-worth in self-help books, podcasts, and
-                  personal growth programs. But true healing didn't come from pages or courses. It began when I stopped
-                  running from myself and finally faced what I had buried for years.
-                </p>
               </div>
             </div>
 
-            <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6">
-              <p className="drop-shadow-xl">
+            {/* Continued Text Content */}
+            <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-12">
+              <p className="text-lg drop-shadow-xl">
+                For a long time, I searched for confidence, love, and self-worth in self-help books, podcasts, and
+                personal growth programs. But true healing didn't come from pages or courses. It began when I stopped
+                running from myself and finally faced what I had buried for years.
+              </p>
+
+              <p className="text-lg drop-shadow-xl">
                 In 2020, I discovered stillness through meditation, and that stillness changed everything. I immersed
                 myself in practices like Shambhavi Mahamudra Kriya and Sudarshan Kriya, and later completed a 1,500-hour
                 yoga teacher training in the Blue Ridge Mountains. From that foundation, I began guiding others,
@@ -117,20 +126,20 @@ export default function AboutPage() {
                 reconnection, and awakening.
               </p>
 
-              <p className="drop-shadow-xl">
+              <p className="text-lg drop-shadow-xl">
                 Over time, my calling deepened into integrating energy work, trauma-informed spirituality, and intuitive
                 healing. I trained in Holy Fire® Reiki, Divine Healing, Soul Contract Readings, and other
                 mind-body-spirit practices. Each one helped me reclaim the parts of myself I had once abandoned—my
                 power, my voice, my truth.
               </p>
 
-              <p className="drop-shadow-xl">
+              <p className="text-lg drop-shadow-xl">
                 Today, I walk alongside women who have survived by disconnecting from themselves, women who have dimmed
                 their light, masked their pain, or forgotten how to trust their inner voice. Through a blend of
                 evidence-based insight and soul-centered healing, I help them come back home to themselves.
               </p>
 
-              <p className="drop-shadow-xl">
+              <p className="text-lg drop-shadow-xl">
                 This work is my life's purpose. Because I know what it feels like to believe you are broken—and I also
                 know the deeper truth: you are not.
               </p>
