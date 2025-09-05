@@ -74,7 +74,7 @@ export default function AboutPage() {
             {/* Welcome Message */}
             <div className="text-center mb-12">
               <p className="text-xl font-serif text-white drop-shadow-2xl italic">
-                hello beautiful soul! If you are reading this, know you are exactly where you are meant to be
+                Hello beautiful soul! If you are reading this, know you are exactly where you are meant to be
               </p>
             </div>
 
