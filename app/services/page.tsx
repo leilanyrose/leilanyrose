@@ -92,11 +92,11 @@ export default function ServicesPage() {
                         <div>
                           <h3 className="text-2xl font-serif text-gray-800">Divine Healing</h3>
                           <div className="flex items-center space-x-2">
-                            <span className="text-2xl font-bold text-purple-600">$88</span>
+                            <span className="text-2xl font-bold text-purple-600">$96</span>
                             <span className="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded">
                               Limited Time Offer!
                             </span>
-                            <span className="text-gray-500 line-through">(normally $125)</span>
+                            <span className="text-gray-500 line-through">(normally $135)</span>
                           </div>
                         </div>
                       </div>
@@ -171,11 +171,11 @@ export default function ServicesPage() {
                         <div>
                           <h3 className="text-2xl font-serif text-gray-800">Soul Contract Reading</h3>
                           <div className="flex items-center space-x-2">
-                            <span className="text-2xl font-bold text-purple-600">$96</span>
+                            <span className="text-2xl font-bold text-purple-600">$108</span>
                             <span className="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded">
                               Limited Time Offer!
                             </span>
-                            <span className="text-gray-500 line-through">(normally $150)</span>
+                            <span className="text-gray-500 line-through">(normally $160)</span>
                           </div>
                         </div>
                       </div>
