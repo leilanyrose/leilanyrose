@@ -72,11 +72,11 @@ export default function AboutPage() {
         <section className="pb-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Quote */}
-            <div className="text-center mb-8">
-              <p className="text-xl font-serif text-white drop-shadow-2xl italic">
+            <div className="text-center mb-8 bg-white/10 border border-white/20 rounded-2xl px-8 py-6 backdrop-blur-sm">
+              <p className="text-xl font-serif text-amber-50 drop-shadow-2xl italic">
                 {'"Keep your mind clear and your heart open so that you can hear your truth"'}
               </p>
-              <p className="text-lg font-serif text-white/80 drop-shadow-xl mt-2">— Kuan Yin</p>
+              <p className="text-lg font-serif text-amber-100/80 drop-shadow-xl mt-3">— Kuan Yin</p>
             </div>
 
             {/* Welcome Message */}
@@ -108,17 +108,16 @@ export default function AboutPage() {
                 <p className="text-lg drop-shadow-xl">
                   {"I've carried the weight of trauma and suppression, shaped by patriarchy and culture, and done the hard, messy work of reclaiming myself. Growing up in a traditional Korean household, being a girl meant staying quiet, staying small, and not taking up space. Beneath that silence, I carried the hidden impact of childhood sexual abuse\u2014wounds that shook my confidence, my body, and my sense of worth - challenging everything I thought I knew about myself."}
                 </p>
-
-                <p className="text-lg drop-shadow-xl">
-                  For years, I searched for confidence and self-worth in books, podcasts, and personal growth programs.
-                  But real healing does not come from pages or podcasts. It began when I stopped running from myself and
-                  faced what I had buried for so long.
-                </p>
               </div>
             </div>
 
             {/* Continued Text Content */}
-            <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-12">
+            <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-6">
+              <p className="text-lg drop-shadow-xl">
+                For years, I searched for confidence and self-worth in books, podcasts, and personal growth programs.
+                But real healing does not come from pages or podcasts. It began when I stopped running from myself and
+                faced what I had buried for so long.
+              </p>
               <p className="text-lg drop-shadow-xl">
                 {"I discovered meditation in 2020, and it changed everything. In 2022, I completed a 1,500+ hour yoga teacher training through the Art of Living and spent a year living in an Ashram teaching Sudarshan Kriya. Spirit guided me to follow my own inner teacher and leave the Ashram, and shortly after, I had a profound spiritual awakening that led me to the teachings of the Ascended Masters. Their wisdom taught me that true spiritual growth comes from curiosity, presence, and self-mastery. The divine lives within each of us, available whenever we open to love, release judgment, and follow our inner guidance."}
               </p>
