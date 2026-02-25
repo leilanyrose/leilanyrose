@@ -73,6 +73,12 @@ export default function HomePage() {
                     Through spiritual healing, meditation, breathwork, and trauma-informed principles, I support women
                     on their journey to wholeness, empowerment, and authentic self-expression.
                   </p>
+                  <p className="text-lg text-white leading-relaxed drop-shadow-xl">
+                    I am a trauma-informed counselor-in-training at Northwestern University and a certified Breathwork
+                    and Meditation instructor (1500+ hour training) through the Art of Living. I blend clinical
+                    counseling with holistic energy work to create grounded, heart-centered spaces for healing and
+                    empowerment.
+                  </p>
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">
