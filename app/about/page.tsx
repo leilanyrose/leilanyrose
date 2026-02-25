@@ -73,15 +73,15 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Quote */}
             <div className="text-center mb-8 bg-white/10 border border-white/20 rounded-2xl px-8 py-6 backdrop-blur-sm">
-              <p className="text-xl font-serif text-amber-50 drop-shadow-2xl italic">
+              <p className="text-2xl font-serif text-amber-50 drop-shadow-2xl italic">
                 {'"Keep your mind clear and your heart open so that you can hear your truth"'}
               </p>
-              <p className="text-lg font-serif text-amber-100/80 drop-shadow-xl mt-3">— Kuan Yin</p>
+              <p className="text-xl font-serif text-amber-100/80 drop-shadow-xl mt-3">— Kuan Yin</p>
             </div>
 
             {/* Welcome Message */}
             <div className="text-center mb-12">
-              <p className="text-xl font-serif text-white drop-shadow-2xl italic">
+              <p className="text-xl font-serif text-white drop-shadow-2xl">
                 Hello beautiful soul! If you are reading this, know you are exactly where you are meant to be
               </p>
             </div>
