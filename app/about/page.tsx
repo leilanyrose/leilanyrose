@@ -71,6 +71,14 @@ export default function AboutPage() {
         {/* Main Content */}
         <section className="pb-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Quote */}
+            <div className="text-center mb-8">
+              <p className="text-xl font-serif text-white drop-shadow-2xl italic">
+                {'"Keep your mind clear and your heart open so that you can hear your truth"'}
+              </p>
+              <p className="text-lg font-serif text-white/80 drop-shadow-xl mt-2">— Kuan Yin</p>
+            </div>
+
             {/* Welcome Message */}
             <div className="text-center mb-12">
               <p className="text-xl font-serif text-white drop-shadow-2xl italic">
