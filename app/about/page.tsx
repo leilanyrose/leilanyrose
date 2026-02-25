@@ -71,9 +71,17 @@ export default function AboutPage() {
         {/* Main Content */}
         <section className="pb-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Quote */}
+            <div className="text-center mb-8 bg-white/10 border border-white/20 rounded-2xl px-8 py-6 backdrop-blur-sm">
+              <p className="text-2xl font-serif text-amber-50 drop-shadow-2xl italic">
+                {'"Keep your mind clear and your heart open so that you can hear your truth"'}
+              </p>
+              <p className="text-xl font-serif text-amber-100/80 drop-shadow-xl mt-3">— Kuan Yin</p>
+            </div>
+
             {/* Welcome Message */}
             <div className="text-center mb-12">
-              <p className="text-xl font-serif text-white drop-shadow-2xl italic">
+              <p className="text-xl font-serif text-white drop-shadow-2xl">
                 Hello beautiful soul! If you are reading this, know you are exactly where you are meant to be
               </p>
             </div>
@@ -92,56 +100,34 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-white leading-relaxed">
                 <p className="text-lg drop-shadow-xl">
-                  I am a certified healer, meditation and breathwork instructor, and counselor-in-training with a
-                  background in Molecular Biology and Clinical Psychology. I am currently earning my Master of Arts in
-                  Counseling at Northwestern University.
+                  I am a certified healer, meditation and breathwork instructor, and counselor-in-training, earning my
+                  Master of Arts in Counseling at Northwestern University. I also have a background in Molecular Biology
+                  and Clinical Psychology, but the heart of my story is my lived experience.
                 </p>
 
                 <p className="text-lg drop-shadow-xl">
-                  But beyond credentials, I am someone who has lived through suppression and trauma—shaped by
-                  patriarchy, silenced by culture—and who has done the hard, messy work of healing.
-                </p>
-
-                <p className="text-lg drop-shadow-xl">
-                  I grew up in a traditional Korean household where being a girl meant following unspoken rules: stay
-                  quiet, stay small, do not take up space. Beneath that silence, I carried the hidden weight of
-                  childhood sexual abuse—wounds I would not fully understand until many years later.
+                  {"I've carried the weight of trauma and suppression, shaped by patriarchy and culture, and done the hard, messy work of reclaiming myself. Growing up in a traditional Korean household, being a girl meant staying quiet, staying small, and not taking up space. Beneath that silence, I carried the hidden impact of childhood sexual abuse\u2014wounds that shook my confidence, my body, and my sense of worth - challenging everything I thought I knew about myself."}
                 </p>
               </div>
             </div>
 
             {/* Continued Text Content */}
-            <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-12">
+            <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-6">
               <p className="text-lg drop-shadow-xl">
-                For a long time, I searched for confidence, love, and self-worth in self-help books, podcasts, and
-                personal growth programs. But true healing didn't come from pages or courses. It began when I stopped
-                running from myself and finally faced what I had buried for years.
+                For years, I searched for confidence and self-worth in books, podcasts, and personal growth programs.
+                But real healing does not come from pages or podcasts. It began when I stopped running from myself and
+                faced what I had buried for so long.
+              </p>
+              <p className="text-lg drop-shadow-xl">
+                {"I discovered meditation in 2020, and it changed everything. In 2022, I completed a 1,500+ hour yoga teacher training through the Art of Living and spent a year living in an Ashram teaching Sudarshan Kriya. Spirit guided me to follow my own inner teacher and leave the Ashram, and shortly after, I had a profound spiritual awakening that led me to the teachings of the Ascended Masters. Their wisdom taught me that true spiritual growth comes from curiosity, presence, and self-mastery. The divine lives within each of us, available whenever we open to love, release judgment, and follow our inner guidance."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                In 2020, I discovered stillness through meditation, and that stillness changed everything. I immersed
-                myself in practices like Shambhavi Mahamudra Kriya and Sudarshan Kriya, and later completed a 1,500-hour
-                yoga teacher training in the Blue Ridge Mountains. From that foundation, I began guiding others,
-                offering breathwork and meditation not only as stress relief but as pathways to resilience,
-                reconnection, and awakening.
+                {"Since then, I've expanded my practice to include trauma-informed spirituality, energy healing, Holy Fire\u00AE Reiki, Divine Healing, and Soul Contract Readings. I blend these tools with evidence-based insight to support women in reconnecting with their bodies, reclaiming their voices, and stepping into their power."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                Over time, my calling deepened into integrating energy work, trauma-informed spirituality, and intuitive
-                healing. I trained in Holy Fire® Reiki, Divine Healing, Soul Contract Readings, and other
-                mind-body-spirit practices. Each one helped me reclaim the parts of myself I had once abandoned—my
-                power, my voice, my truth.
-              </p>
-
-              <p className="text-lg drop-shadow-xl">
-                Today, I walk alongside women who have survived by disconnecting from themselves, women who have dimmed
-                their light, masked their pain, or forgotten how to trust their inner voice. Through a blend of
-                evidence-based insight and soul-centered healing, I help them come back home to themselves.
-              </p>
-
-              <p className="text-lg drop-shadow-xl">
-                This work is my life's purpose. Because I know what it feels like to believe you are broken—and I also
-                know the deeper truth: you are not.
+                {"This work is my life\u2019s purpose. I know what it feels like to believe you are broken\u2014and I also know the deeper truth: you are not."}
               </p>
 
               <div className="text-center py-8">
