@@ -100,20 +100,15 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-white leading-relaxed">
                 <p className="text-lg drop-shadow-xl">
-                  I am a certified healer, meditation and breathwork instructor, and counselor-in-training with a
-                  background in Molecular Biology and Clinical Psychology. I am currently earning my Master of Arts in
-                  Counseling at Northwestern University.
+                  {"I am a certified healer, meditation and breathwork instructor, and counselor-in-training, earning my Master of Arts in Counseling at Northwestern University. I also have a background in Molecular Biology and Clinical Psychology\u2014but the heart of my story is my lived experience."}
                 </p>
 
                 <p className="text-lg drop-shadow-xl">
-                  But beyond credentials, I am someone who has lived through suppression and trauma—shaped by
-                  patriarchy, silenced by culture—and who has done the hard, messy work of healing.
+                  {"I\u2019ve navigated the weight of trauma and suppression, shaped by patriarchy and culture, and I\u2019ve done the hard, messy work of reclaiming myself. Growing up in a traditional Korean household, being a girl meant staying quiet, staying small, and not taking up space. Beneath that silence, I carried the hidden impact of childhood sexual abuse\u2014wounds that shook my confidence, my body, and my sense of worth, challenging everything I thought I knew about myself."}
                 </p>
 
                 <p className="text-lg drop-shadow-xl">
-                  I grew up in a traditional Korean household where being a girl meant following unspoken rules: stay
-                  quiet, stay small, do not take up space. Beneath that silence, I carried the hidden weight of
-                  childhood sexual abuse—wounds I would not fully understand until many years later.
+                  For years, I looked for confidence and self-worth in books, podcasts, and personal growth programs. But real healing does not come from pages or podcasts. It began when I stopped running from myself and faced what I had buried for so long.
                 </p>
               </div>
             </div>
@@ -121,35 +116,15 @@ export default function AboutPage() {
             {/* Continued Text Content */}
             <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-12">
               <p className="text-lg drop-shadow-xl">
-                For a long time, I searched for confidence, love, and self-worth in self-help books, podcasts, and
-                personal growth programs. But true healing didn't come from pages or courses. It began when I stopped
-                running from myself and finally faced what I had buried for years.
+                I discovered meditation in 2020, and it completely shifted my life. In 2022, I completed a 1,500+ hour yoga teacher training through the Art of Living, and then spent a year in an Ashram teaching Sudarshan Kriya. Along the way, I explored Isha Kriya and other meditation modalities. These experiences taught me the power of presence, breath, and—most importantly—that real guidance comes from within. Spirit guided me to honor my inner truth rather than follow anyone else's path.
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                In 2020, I discovered stillness through meditation, and that stillness changed everything. I immersed
-                myself in practices like Shambhavi Mahamudra Kriya and Sudarshan Kriya, and later completed a 1,500-hour
-                yoga teacher training in the Blue Ridge Mountains. From that foundation, I began guiding others,
-                offering breathwork and meditation not only as stress relief but as pathways to resilience,
-                reconnection, and awakening.
+                {"Since then, I\u2019ve expanded my practice to include trauma-informed spirituality, energy healing, Holy Fire\u00AE Reiki, Divine Healing, and Soul Contract Readings. My work blends these tools with evidence-based insight to support women in reconnecting with their bodies, reclaiming their voices, and stepping into their power."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                Over time, my calling deepened into integrating energy work, trauma-informed spirituality, and intuitive
-                healing. I trained in Holy Fire® Reiki, Divine Healing, Soul Contract Readings, and other
-                mind-body-spirit practices. Each one helped me reclaim the parts of myself I had once abandoned—my
-                power, my voice, my truth.
-              </p>
-
-              <p className="text-lg drop-shadow-xl">
-                Today, I walk alongside women who have survived by disconnecting from themselves, women who have dimmed
-                their light, masked their pain, or forgotten how to trust their inner voice. Through a blend of
-                evidence-based insight and soul-centered healing, I help them come back home to themselves.
-              </p>
-
-              <p className="text-lg drop-shadow-xl">
-                This work is my life's purpose. Because I know what it feels like to believe you are broken—and I also
-                know the deeper truth: you are not.
+                {"This work is my life\u2019s purpose. Because I know what it feels like to believe you are broken\u2014and I also know the deeper truth: you are not."}
               </p>
 
               <div className="text-center py-8">
