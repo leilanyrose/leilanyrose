@@ -101,12 +101,12 @@ export default function AboutPage() {
               <div className="space-y-6 text-white leading-relaxed">
                 <p className="text-lg drop-shadow-xl">
                   I am a certified healer, meditation and breathwork instructor, and counselor-in-training, earning my
-                  Master of Arts in Counseling at Northwestern University. I also have a background in Molecular Biology
-                  and Clinical Psychology, but the heart of my story is my lived experience.
+                  MA in Counseling at Northwestern University. I also have a background in Molecular Biology and
+                  Clinical Psychology, but the heart of my story is my lived experience.
                 </p>
 
                 <p className="text-lg drop-shadow-xl">
-                  {"I've carried the weight of trauma and suppression, shaped by patriarchy and culture, and done the hard, messy work of reclaiming myself. Growing up in a traditional Korean household, being a girl meant staying quiet, staying small, and not taking up space. Beneath that silence, I carried the hidden impact of childhood sexual abuse\u2014wounds that shook my confidence, my body, and my sense of worth - challenging everything I thought I knew about myself."}
+                  {"I learned from a young age that being a girl was not safe, especially raised Korean, where girls are taught to be quiet, respectful, and agreeable. Experiencing sexual abuse further silenced me and left deep wounds, making me feel powerless, unworthy, and ashamed of my body. These experiences shaped my worldview, affecting my trust, intimacy, self-expression, and sense of safety well into adulthood. For years, I carried anxiety and shame that disrupted my relationships, my connection to my body, and my spiritual life."}
                 </p>
               </div>
             </div>
@@ -114,16 +114,19 @@ export default function AboutPage() {
             {/* Continued Text Content */}
             <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-6">
               <p className="text-lg drop-shadow-xl">
-                For years, I searched for confidence and self-worth in books, podcasts, and personal growth programs.
-                But real healing does not come from pages or podcasts. It began when I stopped running from myself and
-                faced what I had buried for so long.
-              </p>
-              <p className="text-lg drop-shadow-xl">
-                {"I discovered meditation in 2020, and it changed everything. In 2022, I completed a 1,500+ hour yoga teacher training through the Art of Living and spent a year living in an Ashram teaching Sudarshan Kriya. Spirit guided me to follow my own inner teacher and leave the Ashram, and shortly after, I had a profound spiritual awakening that led me to the teachings of the Ascended Masters. Their wisdom taught me that true spiritual growth comes from curiosity, presence, and self-mastery. The divine lives within each of us, available whenever we open to love, release judgment, and follow our inner guidance."}
+                {"For a long time, I searched for confidence, love, and self-worth in books, podcasts, and personal growth programs. But real healing didn\u2019t come from pages or courses\u2014it began the moment I stopped running from myself and faced what I had buried for so long."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                {"Since then, I've expanded my practice to include trauma-informed spirituality, energy healing, Holy Fire\u00AE Reiki, Divine Healing, and Soul Contract Readings. I blend these tools with evidence-based insight to support women in reconnecting with their bodies, reclaiming their voices, and stepping into their power."}
+                {"In 2020, I discovered breathwork and meditation through the Art of Living, and it transformed my life. I went on to explore other practices, including Isha Kriya, deepening my understanding of breath, energy, and mindfulness. In 2022, I completed a 1,500+ hour yoga teacher training and spent a year living in an Ashram, teaching Sudarshan Kriya Yoga to hundreds of people."}
+              </p>
+
+              <p className="text-lg drop-shadow-xl">
+                {"Spirit soon guided me to leave the Ashram, and shortly after, I experienced a profound awakening that led me to the teachings of the Ascended Masters. Their wisdom revealed that true spiritual growth comes through presence and self-mastery, helping me recognize the divine within each of us\u2014accessible whenever we open to love, release judgment, and follow our inner guidance."}
+              </p>
+
+              <p className="text-lg drop-shadow-xl">
+                {"Since then, I\u2019ve expanded my practice to include trauma-informed spirituality, energy healing, Holy Fire\u00AE Reiki, Divine Healing, and Soul Contract Readings. I blend these tools with evidence-based insight to support women in reconnecting with their bodies, reclaiming their voices, and stepping into their power."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
