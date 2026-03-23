@@ -92,6 +92,15 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
                 Services
               </Link>
               <Link
+                href="/resources"
+                className={`block py-3 px-4 rounded-xl transition-all duration-200 bg-white text-purple-700 hover:bg-purple-50 ${
+                  currentPage === "resources" ? "font-semibold shadow-sm border border-purple-200" : ""
+                }`}
+                onClick={closeMenu}
+              >
+                Resources
+              </Link>
+              <Link
                 href="/#contact"
                 className="block py-3 px-4 rounded-xl bg-white text-purple-700 hover:bg-purple-50 transition-all duration-200"
                 onClick={closeMenu}
