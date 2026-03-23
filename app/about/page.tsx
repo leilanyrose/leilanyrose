@@ -72,11 +72,21 @@ export default function AboutPage() {
         <section className="pb-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Quote */}
-            <div className="text-center mb-8 bg-white/10 border border-white/20 rounded-2xl px-8 py-6 backdrop-blur-sm">
-              <p className="text-2xl font-serif text-amber-50 drop-shadow-2xl italic">
-                {'"Keep your mind clear and your heart open so that you can hear your truth"'}
+            <div className="text-center py-24">
+              <p 
+                className="text-2xl md:text-3xl font-serif font-normal drop-shadow-2xl leading-[1.7] tracking-[0.02em]"
+                style={{ color: '#F5F3F7' }}
+              >
+                Keep your mind clear and your heart open,
+                <br />
+                so you can hear your truth.
               </p>
-              <p className="text-xl font-serif text-amber-100/80 drop-shadow-xl mt-3">— Kuan Yin</p>
+              <p 
+                className="text-base md:text-lg font-serif font-normal drop-shadow-xl mt-8 tracking-[0.02em]"
+                style={{ color: 'rgba(245, 243, 247, 0.8)' }}
+              >
+                — Kuan Yin
+              </p>
             </div>
 
             {/* Welcome Message */}
@@ -100,13 +110,11 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-white leading-relaxed">
                 <p className="text-lg drop-shadow-xl">
-                  I am a certified healer, meditation and breathwork instructor, and counselor-in-training, earning my
-                  MA in Counseling at Northwestern University. I also have a background in Molecular Biology and
-                  Clinical Psychology, but the heart of my story is my lived experience.
+                  {"I am a certified healer, meditation and breathwork instructor, and counselor-in-training, earning my MA in Counseling at Northwestern University. I also have a background in Molecular Biology and Clinical Psychology, but the heart of my story is my lived experience. I've done the hard, messy work of reclaiming myself and my power."}
                 </p>
 
                 <p className="text-lg drop-shadow-xl">
-                  {"I learned from a young age that being a girl was not safe, especially raised Korean, where girls are taught to be quiet, respectful, and agreeable. Experiencing sexual abuse further silenced me and left deep wounds, making me feel powerless, unworthy, and ashamed of my body. These experiences shaped my worldview, affecting my trust, intimacy, self-expression, and sense of safety well into adulthood. For years, I carried anxiety and shame that disrupted my relationships, my connection to my body, and my spiritual life."}
+                  {"As a Korean woman, I grew up navigating a culture where girls are taught to be quiet, respectful, and compliant. As a child, I survived rape by a trusted authority, which left me feeling silenced, powerless, and unworthy. That experience deeply shaped how I related to my body, intimacy, self-expression, and safety. For years, I carried that pain into many areas of my life\u2014my relationships, my sense of self, and my connection to my body felt fractured."}
                 </p>
               </div>
             </div>
@@ -114,23 +122,23 @@ export default function AboutPage() {
             {/* Continued Text Content */}
             <div className="prose prose-lg max-w-none text-white leading-relaxed space-y-6 mt-6">
               <p className="text-lg drop-shadow-xl">
-                {"For a long time, I searched for confidence, love, and self-worth in books, podcasts, and personal growth programs. But real healing didn\u2019t come from pages or courses\u2014it began the moment I stopped running from myself and faced what I had buried for so long."}
+                {"For a long time, I searched for confidence, love, and self-worth in books, counseling, podcasts, and personal growth programs. True healing, however, didn\u2019t come from pages or courses\u2014it began when I stopped running from myself and faced what I had buried for so long."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                {"In 2020, I discovered breathwork and meditation through the Art of Living, and it transformed my life. I went on to explore other practices, including Isha Kriya, deepening my understanding of breath, energy, and mindfulness. In 2022, I completed a 1,500+ hour yoga teacher training and spent a year living in an Ashram, teaching Sudarshan Kriya Yoga to hundreds of people."}
+                {"In 2020, I discovered breathwork and meditation through the Art of Living, which became a turning point in my life. I went on to explore practices including Isha Kriya and Shambhavi Mahamudra Kriya, deepening my understanding of breath, energy, and mindfulness. In 2022, I completed a 1,500+ hour yoga teacher training and spent a year living in an ashram, where I taught Sudarshan Kriya Yoga (a powerful breath-based meditation) to hundreds of people."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                {"Spirit soon guided me to leave the Ashram, and shortly after, I experienced a profound awakening that led me to the teachings of the Ascended Masters. Their wisdom revealed that true spiritual growth comes through presence and self-mastery, helping me recognize the divine within each of us\u2014accessible whenever we open to love, release judgment, and follow our inner guidance."}
+                {"I eventually felt called to leave the ashram and step into my own path. During this time, I experienced a profound spiritual awakening that led to an immersive period of study, meditation, and energy practice based on the teachings of the Ascended Masters. Through this journey, I discovered that true growth requires presence, self-mastery, and inner responsibility\u2014lessons I now bring into my healing work with women reclaiming their power and voice."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                {"Since then, I\u2019ve expanded my practice to include trauma-informed spirituality, energy healing, Holy Fire\u00AE Reiki, Divine Healing, and Soul Contract Readings. I blend these tools with evidence-based insight to support women in reconnecting with their bodies, reclaiming their voices, and stepping into their power."}
+                {"Inspired by this awakening, I began building my own healing practice, blending trauma-informed spirituality with intuitive, energy-based healing, while drawing from my training in counseling and psychology. My work helps women reconnect with their bodies, reclaim their voices, and step into their power."}
               </p>
 
               <p className="text-lg drop-shadow-xl">
-                {"This work is my life\u2019s purpose. I know what it feels like to believe you are broken\u2014and I also know the deeper truth: you are not."}
+                {"This is my life\u2019s purpose. I know what it feels like to believe you are broken\u2014and I also know the deeper truth: you are not."}
               </p>
 
               <div className="text-center py-8">
