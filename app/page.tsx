@@ -41,6 +41,9 @@ export default function HomePage() {
                 <Link href="/services" className="text-gray-700 hover:text-purple-600 transition-colors">
                   Services
                 </Link>
+                <Link href="/resources" className="text-gray-700 hover:text-purple-600 transition-colors">
+                  Resources
+                </Link>
                 <Link href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">
                   Connect
                 </Link>
