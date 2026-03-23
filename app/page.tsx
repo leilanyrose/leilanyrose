@@ -8,11 +8,13 @@ import { MobileMenu } from "@/components/mobile-menu"
 export default function HomePage() {
   return (
     <div className="min-h-screen relative">
-      {/* Full Violet Flame Background - Dark Lavender */}
+      {/* Violet Flame Background - Deep Amethyst to Ethereal Violet */}
       <div className="fixed inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-500 via-violet-600 to-purple-600"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-violet-700/70 via-purple-600/50 to-violet-700/70"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-400/40 via-violet-500/30 to-purple-600/50"></div>
+        <div 
+          className="absolute inset-0"
+          style={{ background: 'linear-gradient(135deg, #602E91 0%, #8B5CF6 100%)' }}
+        />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-violet-400/20 via-transparent to-transparent" />
       </div>
 
       {/* All content with relative positioning */}
@@ -64,19 +66,28 @@ export default function HomePage() {
         </nav>
 
         {/* Hero Section */}
-        <section className="relative py-20 lg:py-32">
+        <section className="relative py-32 lg:py-40">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="space-y-8">
-                <div className="space-y-4">
-                  <h1 className="text-4xl lg:text-6xl font-serif leading-tight text-white drop-shadow-2xl">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              <div className="space-y-10 max-w-[800px]">
+                <div className="space-y-6 text-left">
+                  <h1 
+                    className="text-4xl lg:text-6xl font-serif font-semibold leading-tight drop-shadow-2xl"
+                    style={{ color: '#FDFCF0' }}
+                  >
                     Guiding women to reclaim Her power and align with Her Highest Self
                   </h1>
-                  <p className="text-lg text-white leading-relaxed drop-shadow-xl">
+                  <p 
+                    className="text-lg font-medium leading-[1.6] drop-shadow-xl"
+                    style={{ color: 'rgba(253, 252, 240, 0.95)' }}
+                  >
                     Through spiritual healing, meditation, breathwork, and trauma-informed principles, I support women
                     on their journey to wholeness, empowerment, and authentic self-expression.
                   </p>
-                  <p className="text-lg text-white leading-relaxed drop-shadow-xl">
+                  <p 
+                    className="text-lg font-medium leading-[1.6] drop-shadow-xl"
+                    style={{ color: 'rgba(253, 252, 240, 0.95)' }}
+                  >
                     I am a trauma-informed counselor-in-training at Northwestern University and a certified Breathwork
                     and Meditation instructor (1500+ hour training) through the Art of Living. I blend clinical
                     counseling with holistic energy work to create grounded, heart-centered spaces for healing and
@@ -87,7 +98,18 @@ export default function HomePage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
                     size="lg"
-                    className="bg-white text-purple-800 hover:bg-gray-50 px-8 shadow-2xl shadow-black/50 font-semibold"
+                    className="px-10 py-6 text-lg font-semibold transition-all duration-300 hover:scale-[1.02]"
+                    style={{ 
+                      backgroundColor: '#D4AF37', 
+                      color: '#301934',
+                      boxShadow: '0 4px 20px rgba(212, 175, 55, 0.3)'
+                    }}
+                    onMouseOver={(e) => {
+                      e.currentTarget.style.boxShadow = '0 0 30px rgba(139, 92, 246, 0.5), 0 4px 20px rgba(212, 175, 55, 0.4)'
+                    }}
+                    onMouseOut={(e) => {
+                      e.currentTarget.style.boxShadow = '0 4px 20px rgba(212, 175, 55, 0.3)'
+                    }}
                   >
                     <a
                       href="https://calendly.com/leilanyrose99/30min?month=2025-07"
@@ -106,7 +128,8 @@ export default function HomePage() {
                   alt="Leilany Rose - Spiritual Healer and Guide"
                   width={500}
                   height={600}
-                  className="rounded-2xl shadow-2xl shadow-black/40"
+                  className="shadow-2xl shadow-black/40"
+                  style={{ borderRadius: '24px' }}
                 />
               </div>
             </div>
@@ -114,11 +137,19 @@ export default function HomePage() {
         </section>
 
         {/* Services Section */}
-        <section id="services" className="py-20">
+        <section id="services" className="py-32">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-4xl font-serif text-white mb-4 drop-shadow-2xl">Holistic Services</h2>
-              <p className="text-lg text-white max-w-2xl mx-auto drop-shadow-xl">
+            <div className="text-center mb-20 max-w-[800px] mx-auto">
+              <h2 
+                className="text-3xl lg:text-4xl font-serif font-semibold mb-6 drop-shadow-2xl"
+                style={{ color: '#FDFCF0' }}
+              >
+                Holistic Services
+              </h2>
+              <p 
+                className="text-lg font-medium leading-[1.6] drop-shadow-xl"
+                style={{ color: 'rgba(253, 252, 240, 0.95)' }}
+              >
                 Holistic healing modalities rooted in ancient wisdom and modern science
               </p>
             </div>
@@ -130,7 +161,7 @@ export default function HomePage() {
                     <Heart className="h-8 w-8 text-purple-500" />
                   </div>
                   <h3 className="text-xl font-serif text-gray-800 mb-4">Spiritual Healing</h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-600 leading-[1.6]">
                     Energy healing sessions to release blocks, restore balance, and reconnect with your inner wisdom and
                     divine feminine essence.
                   </p>
@@ -143,7 +174,7 @@ export default function HomePage() {
                     <Lotus className="h-8 w-8 text-purple-500" />
                   </div>
                   <h3 className="text-xl font-serif text-gray-800 mb-4">Meditation & Breathwork</h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-600 leading-[1.6]">
                     Certified guidance in meditation and breathwork practices to cultivate presence, reduce stress, and
                     access deeper states of consciousness.
                   </p>
@@ -156,7 +187,7 @@ export default function HomePage() {
                     <Moon className="h-8 w-8 text-purple-500" />
                   </div>
                   <h3 className="text-xl font-serif text-gray-800 mb-4">Group Work</h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-600 leading-[1.6]">
                     Sacred spaces for healing in community. These intimate group offerings will include guided
                     practices, sharing circles, and soul-nourishing support for women on the path of empowerment and
                     embodiment. (Coming soon)
@@ -168,50 +199,60 @@ export default function HomePage() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="py-20">
+        <section id="about" className="py-32">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="relative">
                 <Image
                   src="/images/leilany-heart-centered.webp"
                   alt="Leilany Rose in heart-centered healing practice"
                   width={400}
                   height={500}
-                  className="rounded-2xl shadow-xl shadow-black/40"
+                  className="shadow-xl shadow-black/40"
+                  style={{ borderRadius: '24px' }}
                 />
               </div>
 
-              <div className="space-y-6">
-                <h2 className="text-3xl lg:text-4xl font-serif text-white mb-4 drop-shadow-2xl">
+              <div className="space-y-8 max-w-[800px]">
+                <h2 
+                  className="text-3xl lg:text-4xl font-serif font-semibold mb-6 drop-shadow-2xl text-left"
+                  style={{ color: '#FDFCF0' }}
+                >
                   A Bridge Between Science & Spirit
                 </h2>
-                <p className="text-white leading-relaxed mb-6 drop-shadow-xl">
+                <p 
+                  className="text-lg font-medium leading-[1.6] mb-6 drop-shadow-xl text-left"
+                  style={{ color: 'rgba(253, 252, 240, 0.95)' }}
+                >
                   With a unique background spanning both scientific inquiry and spiritual practice, I bring a grounded,
                   holistic approach to healing that honors both the wisdom of ancient traditions and the insights of
                   modern trauma research.
                 </p>
-                <p className="text-white leading-relaxed mb-6 drop-shadow-xl">
+                <p 
+                  className="text-lg font-medium leading-[1.6] mb-6 drop-shadow-xl text-left"
+                  style={{ color: 'rgba(253, 252, 240, 0.95)' }}
+                >
                   As a certified meditation and breathwork teacher and counselor-in-training, I'm passionate about
                   creating safe, sacred spaces where women can reconnect with their innate power, wisdom, and authentic
                   self-expression.
                 </p>
 
-                <div className="space-y-4">
+                <div className="space-y-4 text-left">
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span className="text-white drop-shadow-xl">Certified Meditation & Breathwork Teacher</span>
+                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: '#D4AF37' }} />
+                    <span className="drop-shadow-xl" style={{ color: '#FDFCF0' }}>Certified Meditation & Breathwork Teacher</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span className="text-white drop-shadow-xl">Counselor-in-Training</span>
+                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: '#D4AF37' }} />
+                    <span className="drop-shadow-xl" style={{ color: '#FDFCF0' }}>Counselor-in-Training</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span className="text-white drop-shadow-xl">Background in Science & Trauma-Informed Healing</span>
+                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: '#D4AF37' }} />
+                    <span className="drop-shadow-xl" style={{ color: '#FDFCF0' }}>Background in Science & Trauma-Informed Healing</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span className="text-white drop-shadow-xl">Spiritual Healer & Guide</span>
+                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: '#D4AF37' }} />
+                    <span className="drop-shadow-xl" style={{ color: '#FDFCF0' }}>Spiritual Healer & Guide</span>
                   </div>
                 </div>
               </div>
@@ -220,18 +261,42 @@ export default function HomePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20">
+        <section className="py-32">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="bg-black/20 backdrop-blur-md rounded-3xl p-12 border border-white/20">
-              <h2 className="text-3xl lg:text-4xl font-serif text-white mb-6 drop-shadow-2xl">
+            <div 
+              className="rounded-3xl p-16 border"
+              style={{ 
+                background: 'rgba(0, 0, 0, 0.2)', 
+                backdropFilter: 'blur(12px)',
+                borderColor: 'rgba(255, 255, 255, 0.2)'
+              }}
+            >
+              <h2 
+                className="text-3xl lg:text-4xl font-serif font-semibold mb-8 drop-shadow-2xl"
+                style={{ color: '#FDFCF0' }}
+              >
                 Ready to Begin Your Sacred Journey?
               </h2>
-              <p className="text-xl text-white mb-8 leading-relaxed drop-shadow-xl">
+              <p 
+                className="text-xl font-medium leading-[1.6] mb-10 max-w-[800px] mx-auto drop-shadow-xl"
+                style={{ color: 'rgba(253, 252, 240, 0.95)' }}
+              >
                 Take the first step toward reclaiming your power and aligning with your highest self
               </p>
               <Button
                 size="lg"
-                className="bg-white text-purple-800 hover:bg-gray-50 px-8 py-3 text-lg shadow-2xl shadow-black/30 font-semibold"
+                className="px-10 py-6 text-lg font-semibold transition-all duration-300 hover:scale-[1.02]"
+                style={{ 
+                  backgroundColor: '#D4AF37', 
+                  color: '#301934',
+                  boxShadow: '0 4px 20px rgba(212, 175, 55, 0.3)'
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.boxShadow = '0 0 30px rgba(139, 92, 246, 0.5), 0 4px 20px rgba(212, 175, 55, 0.4)'
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.boxShadow = '0 4px 20px rgba(212, 175, 55, 0.3)'
+                }}
               >
                 <a
                   href="https://calendly.com/leilanyrose99/30min?month=2025-07"
@@ -246,52 +311,71 @@ export default function HomePage() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-20">
+        <section id="contact" className="py-32">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="bg-black/20 backdrop-blur-md rounded-3xl p-12 border border-white/20">
-              <h2 className="text-3xl lg:text-4xl font-serif text-white mb-6 drop-shadow-2xl">Let's Connect</h2>
-              <p className="text-lg text-white mb-8 max-w-2xl mx-auto drop-shadow-xl">
+            <div 
+              className="rounded-3xl p-16 border"
+              style={{ 
+                background: 'rgba(0, 0, 0, 0.2)', 
+                backdropFilter: 'blur(12px)',
+                borderColor: 'rgba(255, 255, 255, 0.2)'
+              }}
+            >
+              <h2 
+                className="text-3xl lg:text-4xl font-serif font-semibold mb-8 drop-shadow-2xl"
+                style={{ color: '#FDFCF0' }}
+              >
+                Let's Connect
+              </h2>
+              <p 
+                className="text-lg font-medium leading-[1.6] mb-10 max-w-[800px] mx-auto drop-shadow-xl"
+                style={{ color: 'rgba(253, 252, 240, 0.95)' }}
+              >
                 I'd love to hear from you and support you on your healing journey. Reach out to schedule a consultation
                 or ask any questions.
               </p>
 
-              <div className="grid md:grid-cols-4 gap-8 mb-8">
+              <div className="grid md:grid-cols-4 gap-8 mb-10">
                 <div className="text-center">
-                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">Email</h3>
+                  <h3 className="font-semibold mb-2 drop-shadow-xl" style={{ color: '#D4AF37' }}>Email</h3>
                   <a
                     href="mailto:leilanyrose99@gmail.com"
-                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                    className="transition-colors drop-shadow-lg hover:opacity-80"
+                    style={{ color: '#FDFCF0' }}
                   >
                     leilanyrose99@gmail.com
                   </a>
                 </div>
                 <div className="text-center">
-                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">Phone</h3>
+                  <h3 className="font-semibold mb-2 drop-shadow-xl" style={{ color: '#D4AF37' }}>Phone</h3>
                   <a
                     href="tel:832-543-3985"
-                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                    className="transition-colors drop-shadow-lg hover:opacity-80"
+                    style={{ color: '#FDFCF0' }}
                   >
                     (832) 543-3985
                   </a>
                 </div>
                 <div className="text-center">
-                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">Instagram</h3>
+                  <h3 className="font-semibold mb-2 drop-shadow-xl" style={{ color: '#D4AF37' }}>Instagram</h3>
                   <a
                     href="https://www.instagram.com/leilany.rose/?hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                    className="transition-colors drop-shadow-lg hover:opacity-80"
+                    style={{ color: '#FDFCF0' }}
                   >
                     @leilany.rose
                   </a>
                 </div>
                 <div className="text-center">
-                  <h3 className="font-semibold text-white mb-2 drop-shadow-xl">TikTok</h3>
+                  <h3 className="font-semibold mb-2 drop-shadow-xl" style={{ color: '#D4AF37' }}>TikTok</h3>
                   <a
                     href="https://www.tiktok.com/@leilanyrose22"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white hover:text-gray-200 transition-colors drop-shadow-lg"
+                    className="transition-colors drop-shadow-lg hover:opacity-80"
+                    style={{ color: '#FDFCF0' }}
                   >
                     @leilanyrose22
                   </a>
@@ -301,7 +385,18 @@ export default function HomePage() {
               <div className="flex justify-center">
                 <Button
                   size="lg"
-                  className="bg-white text-purple-800 hover:bg-gray-50 shadow-2xl shadow-black/30 font-semibold"
+                  className="px-10 py-6 text-lg font-semibold transition-all duration-300 hover:scale-[1.02]"
+                  style={{ 
+                    backgroundColor: '#D4AF37', 
+                    color: '#301934',
+                    boxShadow: '0 4px 20px rgba(212, 175, 55, 0.3)'
+                  }}
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.boxShadow = '0 0 30px rgba(139, 92, 246, 0.5), 0 4px 20px rgba(212, 175, 55, 0.4)'
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.boxShadow = '0 4px 20px rgba(212, 175, 55, 0.3)'
+                  }}
                 >
                   <a
                     href="https://calendly.com/leilanyrose99/30min?month=2025-07"
@@ -317,9 +412,16 @@ export default function HomePage() {
         </section>
 
         {/* Footer */}
-        <footer className="py-12">
+        <footer className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-white/25 backdrop-blur-md rounded-2xl p-8 border border-white/40 shadow-lg">
+            <div 
+              className="rounded-2xl p-10 border shadow-lg"
+              style={{ 
+                background: 'rgba(255, 255, 255, 0.25)', 
+                backdropFilter: 'blur(12px)',
+                borderColor: 'rgba(255, 255, 255, 0.4)'
+              }}
+            >
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="flex items-center space-x-3 mb-4 md:mb-0">
                   <Image
@@ -329,25 +431,25 @@ export default function HomePage() {
                     height={36}
                     className="h-9 w-auto brightness-125 contrast-125 drop-shadow-lg"
                   />
-                  <span className="text-xl font-serif text-white drop-shadow-xl font-semibold">
+                  <span className="text-xl font-serif drop-shadow-xl font-semibold" style={{ color: '#FDFCF0' }}>
                     Leilany Rose Healing
                   </span>
                 </div>
 
-                <div className="flex space-x-6 text-sm text-white">
-                  <Link href="/privacy" className="hover:text-gray-200 transition-colors drop-shadow-lg">
+                <div className="flex space-x-6 text-sm" style={{ color: '#FDFCF0' }}>
+                  <Link href="/privacy" className="hover:opacity-80 transition-opacity drop-shadow-lg">
                     Privacy Policy
                   </Link>
-                  <Link href="/terms" className="hover:text-gray-200 transition-colors drop-shadow-lg">
+                  <Link href="/terms" className="hover:opacity-80 transition-opacity drop-shadow-lg">
                     Terms of Service
                   </Link>
-                  <Link href="/contact" className="hover:text-gray-200 transition-colors drop-shadow-lg">
+                  <Link href="/contact" className="hover:opacity-80 transition-opacity drop-shadow-lg">
                     Contact
                   </Link>
                 </div>
               </div>
 
-              <div className="mt-8 pt-8 border-t border-white/40 text-center text-sm text-white/95">
+              <div className="mt-8 pt-8 border-t text-center text-sm" style={{ borderColor: 'rgba(255, 255, 255, 0.4)', color: 'rgba(253, 252, 240, 0.95)' }}>
                 <p>&copy; {new Date().getFullYear()} Leilany Rose Healing. All rights reserved.</p>
               </div>
             </div>

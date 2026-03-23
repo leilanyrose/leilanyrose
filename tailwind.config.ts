@@ -14,7 +14,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
-        serif: ['var(--font-cormorant)', 'Georgia', 'serif'],
+        serif: ['var(--font-playfair)', 'Georgia', 'serif'],
+        'serif-body': ['var(--font-eb-garamond)', 'Georgia', 'serif'],
+        script: ['var(--font-dancing-script)', 'cursive'],
       },
       colors: {
         background: 'hsl(var(--background))',
