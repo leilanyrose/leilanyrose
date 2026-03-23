@@ -1,13 +1,23 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Cormorant_Garamond } from "next/font/google"
+import { Inter, Playfair_Display, EB_Garamond, Dancing_Script } from "next/font/google"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
-const cormorant = Cormorant_Garamond({ 
+const playfair = Playfair_Display({ 
+  subsets: ["latin"], 
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-playfair" 
+})
+const ebGaramond = EB_Garamond({ 
   subsets: ["latin"], 
   weight: ["400", "500", "600"],
-  variable: "--font-cormorant" 
+  variable: "--font-eb-garamond" 
+})
+const dancingScript = Dancing_Script({ 
+  subsets: ["latin"], 
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-dancing-script" 
 })
 
 export const metadata: Metadata = {
@@ -23,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${cormorant.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} ${playfair.variable} ${ebGaramond.variable} ${dancingScript.variable} font-sans antialiased`} style={{ WebkitFontSmoothing: 'antialiased' }}>{children}</body>
     </html>
   )
 }
