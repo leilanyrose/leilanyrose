@@ -147,11 +147,7 @@ button,
   cursor: pointer !important;
 }
 
-/* Remove any browser-generated content */
-*::before,
-*::after {
-  content: none !important;
-}
+/* Note: Removed blanket ::before/::after rule that was breaking custom decorative elements */
 
 /* Hide any potential browser UI elements */
 input[type="search"]::-webkit-search-decoration,

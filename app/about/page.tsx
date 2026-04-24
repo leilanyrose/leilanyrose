@@ -77,7 +77,7 @@ export default function AboutPage() {
             {/* Quote */}
             <div className="text-center py-20">
               <p 
-                className="text-2xl md:text-3xl font-serif-body font-normal drop-shadow-2xl leading-[1.8] tracking-[0.01em]"
+                className="text-2xl md:text-3xl font-serif font-normal drop-shadow-2xl leading-[1.8] tracking-[0.01em]"
                 style={{ color: '#FDFCF0' }}
               >
                 Keep your mind clear and your heart open,
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 so you can hear your truth.
               </p>
               <p 
-                className="text-lg font-serif-body font-normal drop-shadow-xl mt-10 tracking-[0.01em]"
+                className="text-lg font-serif font-normal drop-shadow-xl mt-10 tracking-[0.01em]"
                 style={{ color: '#D4AF37' }}
               >
                 — Kuan Yin
@@ -94,7 +94,7 @@ export default function AboutPage() {
 
             {/* Welcome Message */}
             <div className="text-left mb-16">
-              <p className="text-xl font-serif-body drop-shadow-2xl leading-[1.8] tracking-[0.01em]" style={{ color: '#FDFCF0' }}>
+              <p className="text-xl font-serif drop-shadow-2xl leading-[1.8] tracking-[0.01em]" style={{ color: '#FDFCF0' }}>
                 Hello beautiful soul! If you are reading this, know you are exactly where you are meant to be
               </p>
             </div>
@@ -113,11 +113,11 @@ export default function AboutPage() {
               </div>
 
               <div className="space-y-8 leading-[1.8] tracking-[0.01em]" style={{ color: '#FDFCF0' }}>
-                <p className="text-lg font-serif-body drop-shadow-xl">
+                <p className="text-lg font-serif drop-shadow-xl">
                   {"I am a certified healer, meditation and breathwork instructor, and counselor-in-training, earning my MA in Counseling at Northwestern University. I also have a background in Molecular Biology and Clinical Psychology, but the heart of my story is my lived experience. I've done the hard, messy work of reclaiming myself and my power."}
                 </p>
 
-                <p className="text-lg font-serif-body drop-shadow-xl">
+                <p className="text-lg font-serif drop-shadow-xl">
                   {"As a Korean woman, I grew up navigating a culture where girls are taught to be quiet, respectful, and compliant. As a child, I survived rape by a trusted authority, which left me feeling silenced, powerless, and unworthy. That experience deeply shaped how I related to my body, intimacy, self-expression, and safety. For years, I carried that pain into many areas of my life—my relationships, my sense of self, and my connection to my body felt fractured."}
                 </p>
               </div>
@@ -125,25 +125,25 @@ export default function AboutPage() {
 
             {/* Continued Text Content */}
             <div className="max-w-none leading-[1.8] tracking-[0.01em] space-y-8 mt-10" style={{ color: '#FDFCF0' }}>
-              <p className="text-lg font-serif-body drop-shadow-xl">
+              <p className="text-lg font-serif drop-shadow-xl">
                 {"For a long time, I searched for confidence, love, and self-worth in books, counseling, podcasts, and personal growth programs. True healing, however, didn't come from pages or courses—it began when I stopped running from myself and faced what I had buried for so long."}
               </p>
 
-              <p className="text-lg font-serif-body drop-shadow-xl">
+              <p className="text-lg font-serif drop-shadow-xl">
                 {"In 2020, I discovered breathwork and meditation through the Art of Living, which became a turning point in my life. I went on to explore practices including Isha Kriya and Shambhavi Mahamudra Kriya, deepening my understanding of breath, energy, and mindfulness. In 2022, I completed a 1,500+ hour yoga teacher training and spent a year living in an ashram, where I taught Sudarshan Kriya Yoga (a powerful breath-based meditation) to hundreds of people."}
               </p>
 
-              <p className="text-lg font-serif-body drop-shadow-xl">
+              <p className="text-lg font-serif drop-shadow-xl">
                 {"I eventually felt called to leave the ashram and step into my own path. During this time, I experienced a profound spiritual awakening that led to an immersive period of study, meditation, and energy practice based on the teachings of the Ascended Masters. Through this journey, I discovered that true growth requires presence, self-mastery, and inner responsibility—lessons I now bring into my healing work with women reclaiming their power and voice."}
               </p>
 
-              <p className="text-lg font-serif-body drop-shadow-xl">
+              <p className="text-lg font-serif drop-shadow-xl">
                 {"Inspired by this awakening, I began building my own healing practice, blending trauma-informed spirituality with intuitive, energy-based healing, while drawing from my training in counseling and psychology. My work helps women reconnect with their bodies, reclaim their voices, and step into their power."}
               </p>
 
               {/* Pull Quote */}
               <div className="py-16 text-center">
-                <p className="text-2xl md:text-3xl font-serif-body italic drop-shadow-2xl leading-[1.8]" style={{ color: '#FDFCF0' }}>
+                <p className="text-2xl md:text-3xl font-serif italic drop-shadow-2xl leading-[1.8]" style={{ color: '#FDFCF0' }}>
                   {"This is my life's purpose. I know what it feels like to believe you are broken—and I also know the deeper truth: you are not."}
                 </p>
               </div>
@@ -160,7 +160,7 @@ export default function AboutPage() {
 
               {/* Signature */}
               <div className="text-center pt-12">
-                <p className="text-lg font-serif-body drop-shadow-2xl" style={{ color: '#D4AF37' }}>With love and light,</p>
+                <p className="text-lg font-serif drop-shadow-2xl" style={{ color: '#D4AF37' }}>With love and light,</p>
                 <p className="text-3xl font-script mt-4 mb-6 drop-shadow-2xl" style={{ color: '#D4AF37' }}>Leilany Rose Calataya</p>
                 <div className="flex justify-center">
                   <Sparkles className="h-6 w-6" style={{ color: '#D4AF37' }} />

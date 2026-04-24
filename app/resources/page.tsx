@@ -82,8 +82,16 @@ export default function ResourcesPage() {
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #602E91 0%, #8B5CF6 100%)' }}></div>
         <div className="absolute inset-0 bg-gradient-to-t from-violet-900/30 via-transparent to-violet-900/20"></div>
-        {/* Sacred Geometry Watermark */}
-        <div className="absolute inset-0 sacred-geometry-bg"></div>
+        {/* Sacred Geometry Watermark - inline SVG pattern */}
+        <div 
+          className="absolute inset-0 opacity-30 pointer-events-none"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Ccircle cx='200' cy='200' r='150' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Ccircle cx='200' cy='200' r='100' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Ccircle cx='200' cy='200' r='50' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Ccircle cx='200' cy='50' r='50' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Ccircle cx='200' cy='350' r='50' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Ccircle cx='50' cy='200' r='50' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3Ccircle cx='350' cy='200' r='50' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3C/svg%3E")`,
+            backgroundSize: '600px 600px',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'repeat'
+          }}
+        />
       </div>
 
       {/* All content with relative positioning */}
