@@ -2,31 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Glassmorphism Card */
-.glass-card {
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: all 0.3s ease;
-}
-
-.glass-card:hover {
-  box-shadow: 0 0 30px rgba(139, 92, 246, 0.3), 0 0 60px rgba(212, 175, 55, 0.15);
-  border-color: rgba(212, 175, 55, 0.3);
-}
-
-/* Gold CTA Button */
-.gold-cta {
-  background: #D4AF37;
-  color: #301934;
-  transition: all 0.3s ease;
-}
-
-.gold-cta:hover {
-  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5), 0 0 40px rgba(139, 92, 246, 0.3);
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -93,7 +68,11 @@
   }
 }
 
-/* Selection color */
+/* Custom selection color */
 ::selection {
+  background: rgba(147, 51, 234, 0.2);
+}
+
+::-moz-selection {
   background: rgba(147, 51, 234, 0.2);
 }
