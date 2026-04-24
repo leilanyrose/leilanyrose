@@ -2,6 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Sacred Geometry Watermark */
+.sacred-geometry-bg {
+  position: relative;
+}
+
+.sacred-geometry-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Ccircle cx='200' cy='200' r='150' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='200' cy='200' r='100' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='200' cy='200' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='200' cy='50' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='200' cy='350' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='50' cy='200' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='350' cy='200' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='93' cy='93' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='307' cy='93' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='93' cy='307' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3Ccircle cx='307' cy='307' r='50' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1'/%3E%3C/svg%3E");
+  background-size: 600px 600px;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Glassmorphism Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.3), 0 0 60px rgba(212, 175, 55, 0.15);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+/* Gold Accent Text */
+.gold-accent {
+  color: #D4AF37;
+}
+
+/* Violet Flame Gradient */
+.violet-flame-gradient {
+  background: linear-gradient(135deg, #602E91 0%, #8B5CF6 100%);
+}
+
+/* Gold CTA Button */
+.gold-cta {
+  background: #D4AF37;
+  color: #301934;
+  transition: all 0.3s ease;
+}
+
+.gold-cta:hover {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5), 0 0 40px rgba(139, 92, 246, 0.3);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

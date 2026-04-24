@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} ${ebGaramond.variable} ${dancingScript.variable} font-sans antialiased`} style={{ WebkitFontSmoothing: 'antialiased' }}>{children}</body>
+      <body className={`${inter.variable} ${playfair.variable} ${ebGaramond.variable} ${dancingScript.variable} font-sans antialiased`} style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>{children}</body>
     </html>
   )
 }
