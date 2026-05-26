@@ -26,13 +26,13 @@ export default function HomePage() {
               <div className="flex items-center space-x-2">
                 <Image
                   src="/images/lrc-logo.png"
-                  alt="Leilany Rose Healing"
+                  alt="Leilany Rose Wellness"
                   width={40}
                   height={40}
                   className="h-10 w-auto"
                 />
                 <span className="text-xl font-serif text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-700">
-                  Leilany Rose Healing
+                  Leilany Rose Wellness
                 </span>
               </div>
 
@@ -426,13 +426,13 @@ export default function HomePage() {
                 <div className="flex items-center space-x-3 mb-4 md:mb-0">
                   <Image
                     src="/images/lrc-logo.png"
-                    alt="Leilany Rose Healing"
+                    alt="Leilany Rose Wellness"
                     width={36}
                     height={36}
                     className="h-9 w-auto brightness-125 contrast-125 drop-shadow-lg"
                   />
                   <span className="text-xl font-serif drop-shadow-xl font-semibold" style={{ color: '#FDFCF0' }}>
-                    Leilany Rose Healing
+                    Leilany Rose Wellness
                   </span>
                 </div>
 
@@ -450,7 +450,7 @@ export default function HomePage() {
               </div>
 
               <div className="mt-8 pt-8 border-t text-center text-sm" style={{ borderColor: 'rgba(255, 255, 255, 0.4)', color: 'rgba(253, 252, 240, 0.95)' }}>
-                <p>&copy; {new Date().getFullYear()} Leilany Rose Healing. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Leilany Rose Wellness. All rights reserved.</p>
               </div>
             </div>
           </div>
