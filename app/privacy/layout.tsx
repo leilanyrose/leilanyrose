@@ -2,8 +2,8 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Leilany Rose Healing",
-  description: "Privacy Policy for Leilany Rose Healing website and services",
+  title: "Privacy Policy | Leilany Rose Wellness",
+  description: "Privacy Policy for Leilany Rose Wellness website and services",
 }
 
 export default function PrivacyLayout({

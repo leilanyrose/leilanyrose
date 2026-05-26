@@ -2,7 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Services | Leilany Rose Healing",
+  title: "Services | Leilany Rose Wellness",
   description: "Spiritual healing services including Divine Healing, Soul Contract Readings, and Holy Fire Reiki",
 }
 

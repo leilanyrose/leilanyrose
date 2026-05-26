@@ -44,13 +44,13 @@ export function MobileMenu({ currentPage }: MobileMenuProps) {
               <div className="flex items-center space-x-3">
                 <Image
                   src="/images/lrc-logo.png"
-                  alt="Leilany Rose Healing"
+                  alt="Leilany Rose Wellness"
                   width={32}
                   height={32}
                   className="h-8 w-auto"
                 />
                 <span className="text-lg font-serif text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-700">
-                  Leilany Rose Healing
+                  Leilany Rose Wellness
                 </span>
               </div>
               <button

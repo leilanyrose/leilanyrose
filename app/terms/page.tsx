@@ -12,13 +12,13 @@ export default function TermsPage() {
             <Link href="/" className="flex items-center space-x-2">
               <Image
                 src="/images/lrc-logo.png"
-                alt="Leilany Rose Healing"
+                alt="Leilany Rose Wellness"
                 width={40}
                 height={40}
                 className="h-10 w-auto"
               />
               <span className="text-xl font-serif text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-violet-700">
-                Leilany Rose Healing
+                Leilany Rose Wellness
               </span>
             </Link>
 
@@ -70,7 +70,7 @@ export default function TermsPage() {
 
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <p>
-                Welcome to Leilany Rose Healing, a space for intuitive healing, breathwork, and spiritual support
+                Welcome to Leilany Rose Wellness, a space for intuitive healing, breathwork, and spiritual support
                 services offered by Leilany Rose Calataya. By using this website or scheduling services, you agree to
                 the following Terms of Service:
               </p>
@@ -114,7 +114,7 @@ export default function TermsPage() {
               <h2 className="text-2xl font-serif text-gray-800 mt-8 mb-4">6. Intellectual Property</h2>
               <p>
                 All content on this site—including text, images, meditations, logos, and videos—is the property of
-                Leilany Rose Healing and may not be used, copied, or reproduced without written permission.
+                Leilany Rose Wellness and may not be used, copied, or reproduced without written permission.
               </p>
 
               <h2 className="text-2xl font-serif text-gray-800 mt-8 mb-4">7. Limitation of Liability</h2>

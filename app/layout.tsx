@@ -21,7 +21,7 @@ const dancingScript = Dancing_Script({
 })
 
 export const metadata: Metadata = {
-  title: "Home | Leilany Rose Healing",
+  title: "Home | Leilany Rose Wellness",
   description: "Spiritual healing, meditation, breathwork, and trauma-informed counseling services",
     generator: 'v0.app'
 }
