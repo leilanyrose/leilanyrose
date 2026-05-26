@@ -1,7 +1,5 @@
-// Let Vercel wait longer for this page
-export const config = {
-  staticPageGenerationTimeout: 180, // wait up to 3 minutes instead of 1
-};
+"use client"
+
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
